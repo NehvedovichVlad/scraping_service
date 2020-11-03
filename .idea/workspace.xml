@@ -20,17 +20,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7dddb0a8-9fec-45eb-ac04-5b373729dee4" name="Default Changelist" comment="start scraping_service">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pipfile" beforeDir="false" afterPath="$PROJECT_DIR$/Pipfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/manage.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scraping_service/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scraping_service/asgi.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scraping_service/settings.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scraping_service/urls.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scraping_service/wsgi.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/db.sqlite3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scraping_service/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/scraping_service/settings.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,7 +76,14 @@
       <option name="project" value="LOCAL" />
       <updated>1604178328784</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="add .gitignore">
+      <created>1604422494310</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1604422494310</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -101,9 +100,18 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="start scraping_service" />
-    <option name="LAST_COMMIT_MESSAGE" value="start scraping_service" />
+    <MESSAGE value="add .gitignore" />
+    <option name="LAST_COMMIT_MESSAGE" value="add .gitignore" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="442" y="162" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1604421397187">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="442" y="162" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.728@0.0.1366.728" timestamp="1604421397187" />
+    <state x="413" y="111" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1604422583321">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="413" y="111" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728@0.0.1366.728" timestamp="1604422583321" />
     <state x="462" y="119" key="FileChooserDialogImpl" timestamp="1604262020755">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -112,9 +120,9 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="17" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1604263269301" />
-    <state x="275" y="78" key="Vcs.Push.Dialog.v2" timestamp="1604178337548">
+    <state x="275" y="78" key="Vcs.Push.Dialog.v2" timestamp="1604422496738">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="78" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1604178337548" />
+    <state x="275" y="78" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1604422496738" />
   </component>
 </project>
