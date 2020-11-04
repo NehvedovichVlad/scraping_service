@@ -4,22 +4,29 @@
 
 {% block vacancy %}
 
-{% for obj in object_list %}
-<div class="card" style="width: 18rem;">
-  <div class="card-body">
-    <h5 class="card-title"><a href="{{obj.url}}">{{obj.title}}</a></h5>
-    <h6 class="card-subtitle mb-2 text-muted">{{obj.company}}</h6>
-    <p class="card-text">{{obj.description}}</p>
+<div class="container">
+
+<div class="row">
+    {% for obj in object_list %}
+  <div class="col-md-4">
+    <div class="card mb-3 shadow-sm">
+      <div class="card-body">
+        <h5 class="card-title"><a href="{{obj.url}}">{{obj.title}}</a></h5>
+        <h6 class="card-subtitle mb-2 text-muted">{{obj.company}}</h6>
+        <p class="card-text">{{obj.description|truncatechars:120}}</p>
+      </div>
+      <ul class="list-group list-group-flush">
+        <li class="list-group-item">Город: {{obj.city}}</li>
+        <li class="list-group-item">Язык программирования: {{obj.language}}</li>
+      </ul>
+      <div class="card-body">
+        <a href="{{obj.url}}" class="card-link">Подробнее</a>
+      </div>
+    </div>
   </div>
-  <ul class="list-group list-group-flush">
-    <li class="list-group-item">Город: {{obj.city}}</li>
-    <li class="list-group-item">Язык программирования: {{obj.language}}</li>
-  </ul>
-  <div class="card-body">
-    <a href="{{obj.url}}" class="card-link">Подробнее</a>
-  </div>
+    {% endfor %}
+</div>
 </div>
 
-{% endfor %}
 
 {% endblock %}
