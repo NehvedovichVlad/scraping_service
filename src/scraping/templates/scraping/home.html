@@ -1,7 +1,28 @@
 {% extends "base.html" %}
 
 {% block title %}Главная страница{% endblock %}
+{% block search %}
+<div class="jumbotron">
+  <form>
+    <div class="row">
+      <div class col-md-4>
+      <p><img src="https://img2.pngio.com/how-difficult-is-it-to-provide-web-scraping-services-data-scraping-png-387_293.png" alt="Письма мастера дзен"></p>
+      </div>
+      <div class="form-group col-md-6 mx-auto">
+        {{ form.as_p }}
+      </div>
+      </div>
+      <div class="form-group row">
+        <div class="col-sm-12">
+          <button type="submit" class="btn btn-primary btn-block">Посмотреть</button>
+        </div>
 
+    </div>
+  </form>
+
+</div>
+
+{% endblock %}
 {% block vacancy %}
 
 <div class="container mt-4">
@@ -27,7 +48,6 @@
     {% endfor %}
   </div>
 </div>
-
 
 {% endblock %}
 
