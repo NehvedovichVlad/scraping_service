@@ -1,8 +1,8 @@
 
 from django.urls import path
 
-from scraping.views import home
+from scraping.views import home_view
 
 urlpatterns = [
-    path('', home, name='home'),
+    path('', home_view, name='home'),
 ]
