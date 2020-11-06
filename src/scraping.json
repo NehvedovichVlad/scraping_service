@@ -1,0 +1,60 @@
+[
+{
+  "model": "scraping.city",
+  "pk": 1,
+  "fields": {
+    "name": "Минск",
+    "slug": "минск"
+  }
+},
+{
+  "model": "scraping.city",
+  "pk": 2,
+  "fields": {
+    "name": "Гродно",
+    "slug": "гродно"
+  }
+},
+{
+  "model": "scraping.language",
+  "pk": 1,
+  "fields": {
+    "name": "Python",
+    "slug": "python"
+  }
+},
+{
+  "model": "scraping.language",
+  "pk": 2,
+  "fields": {
+    "name": "Java",
+    "slug": "java"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 1,
+  "fields": {
+    "url": "https://rabota.by/vacancy/39449149",
+    "title": "Python Developer",
+    "company": "APPSULOVE",
+    "description": "Опыт работы Python разработчиком от 2-х лет. Опыт работы с Postgres, Apache Kafka, Redis. Опыт работы с Python фреймворками..",
+    "city": 1,
+    "language": 1,
+    "timestamp": "2020-11-04"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 2,
+  "fields": {
+    "url": "https://rabota.by/vacancy/39892371",
+    "title": "Python Developer",
+    "company": "Девхаб",
+    "description": "Разработка и поддержка текущей API. Участие в разработке архитектуры БД. Оперирование большими объемами данных. Поддержка и проектирование обширной скрейпинг системы.\r\nОтличное знание Python. Уверенное владение языком запросов SQL, в частности Postgresql. Знание базовых структур данных (списки, дикты и т.д.).",
+    "city": 1,
+    "language": 1,
+    "timestamp": "2020-11-04"
+  }
+}
+]
