@@ -10,20 +10,25 @@ headers = {
 domain = 'https://rabota.by'
 url = 'https://rabota.by/search/vacancy?area=1002&fromSearchLine=true&st=searchVacancy&text=Python&from=suggest_post'
 resp = requests.get(url, headers=headers)
-jobs=[]
+jobs = []
+errors = []
 if resp.status_code == 200:
     soup = BS(resp.content, 'html.parser')
     main_div = soup.find('div', attrs={"class": "vacancy-serp"})
-    div_lst = main_div.find_all('div', attrs={"data-qa": "vacancy-serp__vacancy"})
-    for div in div_lst:
-        title = div.find('div', attrs={"class": "vacancy-serp-item__row_header"})
-        href = title.a['href']
-        company = div.find('a', attrs={"data-qa": "vacancy-serp__vacancy-employer"})
-        address = div.find('span', attrs={"data-qa": "vacancy-serp__vacancy-address"})
-        content = div.find('div', attrs={"class": "g-user-content"})
-        jobs.append({'title': title.text, 'url': href, 'description': content.text,
-                     'company': company.text})
-
+    if main_div:
+        div_lst = main_div.find_all('div', attrs={"data-qa": "vacancy-serp__vacancy"})
+        for div in div_lst:
+            title = div.find('div', attrs={"class": "vacancy-serp-item__row_header"})
+            href = title.a['href']
+            company = div.find('a', attrs={"data-qa": "vacancy-serp__vacancy-employer"})
+            address = div.find('span', attrs={"data-qa": "vacancy-serp__vacancy-address"})
+            content = div.find('div', attrs={"class": "g-user-content"})
+            jobs.append({'title': title.text, 'url': href, 'description': content.text,
+                         'company': company.text})
+    else:
+        errors.append({'url': url, 'title': "Div didn't exists"})
+else:
+    errors.append({'url': url, 'title': "Page don't response"})
 
 h = codecs.open('work.text', 'w', 'utf-8')
 h.write(str(jobs))
