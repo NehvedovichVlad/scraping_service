@@ -33,7 +33,7 @@ def rabota_by(url):
         if main_div:
             div_lst = main_div.find_all('div', attrs={"data-qa": "vacancy-serp__vacancy"})
             for div in div_lst:
-                title = div.find('div', attrs={"class": "vacancy-serp-item__row_header"})
+                title = div.find('span', attrs={"class": "resume-search-item__name"})
                 href = title.a['href']
                 company = div.find('a', attrs={"data-qa": "vacancy-serp__vacancy-employer"})
                 adress = div.find('span', attrs={"data-qa": "vacancy-serp__vacancy-address"})
@@ -104,8 +104,8 @@ def dev_by(url):
 
 
 if __name__ == '__main__':
-    url = 'https://jobs.dev.by/?&filter[search]=python'
-    jobs, errors = dev_by(url)
+    url = 'https://rabota.by/search/vacancy?clusters=true&enable_snippets=true&text=Python&L_save_area=true&area=1002&from=cluster_area&showClusters=false'
+    jobs, errors = rabota_by(url)
     h = codecs.open('work.txt', 'w', 'utf-8')
     h.write(str(jobs))
     h.close()
