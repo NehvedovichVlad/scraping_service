@@ -24,7 +24,7 @@ def rabota_by(url):
                 title = div.find('div', attrs={"class": "vacancy-serp-item__row_header"})
                 href = title.a['href']
                 company = div.find('a', attrs={"data-qa": "vacancy-serp__vacancy-employer"})
-                address = div.find('span', attrs={"data-qa": "vacancy-serp__vacancy-address"})
+                adress = div.find('span', attrs={"data-qa": "vacancy-serp__vacancy-address"})
                 content = div.find('div', attrs={"class": "g-user-content"})
                 jobs.append({'title': title.text, 'url': href, 'description': content.text,
                              'company': company.text})
@@ -40,6 +40,7 @@ def belmeta(url):
     jobs = []
     errors = []
     domain = 'https://belmeta.com'
+    url = 'https://belmeta.com/%D0%B2%D0%B0%D0%BA%D0%B0%D0%BD%D1%81%D0%B8%D0%B8/Python/%D0%9C%D0%B8%D0%BD%D1%81%D0%BA'
     resp = requests.get(url, headers=headers)
     if resp.status_code == 200:
         soup = BS(resp.content, 'html.parser')
@@ -50,7 +51,7 @@ def belmeta(url):
                 title = div.find('h2', attrs={"class": "title"})
                 href = title.a['href']
                 company = div.find('div', attrs={"class": "job-data company"})
-                address = div.find('div', attrs={"class": "job-data region"})
+                adress = div.find('div', attrs={"class": "job-data region"})
                 content = div.find('div', attrs={"class": "desc"})
                 jobs.append(
                     {'title': title.text, 'url': domain + href, 'description': content.text, 'company': company.text})
@@ -61,9 +62,39 @@ def belmeta(url):
     return jobs, errors
 
 
+def dev_by(url):
+    jobs = []
+    errors = []
+    domain = 'https://jobs.dev.by'
+    #url = 'https://jobs.dev.by/?&filter[search]=python'
+    resp = requests.get(url, headers=headers)
+    if resp.status_code == 200:
+        soup = BS(resp.content, 'html.parser')
+        list_body = soup.find('div', attrs={"class": "vacancies-list__scroll-block"})
+        if list_body:
+            div_lst = list_body.find_all('div', attrs={"class": "vacancies-list-item--marked"})
+            for div in div_lst:
+                title = div.find('div', attrs={"class": "vacancies-list-item__position"})
+                href = title.a['href']
+                company = div.a.text
+                adress = "no adress"
+                content = soup.find('div', attrs={"class": "vacancies-list-item__technology-tags"})
+
+                jobs.append(
+                    {'title': title.text, 'url': domain + href, 'description': content.get_text(','), 'company': company})
+            else:
+                jobs.append(
+                    {'title': title.text, 'url': domain + href, 'description': "no description", 'company': company})
+        else:
+            errors.append({'url': url, 'title': "List_body didn't exists"})
+    else:
+        errors.append({'url': url, 'title': "Page don't response"})
+    return jobs, errors
+
+
 if __name__ == '__main__':
-    url = 'https://belmeta.com/%D0%B2%D0%B0%D0%BA%D0%B0%D0%BD%D1%81%D0%B8%D0%B8/Python/%D0%9C%D0%B8%D0%BD%D1%81%D0%BA'
-    jobs, errors = belmeta(url)
-    h = codecs.open('work.text', 'w', 'utf-8')
+    url = 'https://jobs.dev.by/?&filter[search]=python'
+    jobs, errors = dev_by(url)
+    h = codecs.open('work.txt', 'w', 'utf-8')
     h.write(str(jobs))
     h.close()
