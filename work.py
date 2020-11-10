@@ -78,16 +78,13 @@ def dev_by(url):
                 href = title.a['href']
                 company = div.a.text
                 adress = "no adress"
-                #получить все данные
-                content = div.find_all('div', attrs={"class": "vacancies-list-item__technology-tag__name"})
-                for i in content:
-                    i.text
-                if content:
-                    jobs.append(
-                        {'title': title.text, 'url': domain + href, 'description': content, 'company': company})
-                else:
-                    jobs.append(
-                        {'title': title.text, 'url': domain + href, 'description': "no description", 'company': company})
+                content = soup.find('div', attrs={"class": "vacancies-list-item__technology-tags"})
+
+                jobs.append(
+                    {'title': title.text, 'url': domain + href, 'description': content.get_text(','), 'company': company})
+            else:
+                jobs.append(
+                    {'title': title.text, 'url': domain + href, 'description': "no description", 'company': company})
         else:
             errors.append({'url': url, 'title': "List_body didn't exists"})
     else:
