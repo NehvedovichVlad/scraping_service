@@ -17,12 +17,11 @@ from scraping.models import Vacancy, City, Language, Error, Url
 
 User = get_user_model()
 
+"""parsers consists from function and key"""
 parsers = (
-    (rabota_by,
-     'https://rabota.by/search/vacancy?clusters=true&enable_snippets=true&text=Python&L_save_area=true&area=1002&from=cluster_area&showClusters=true'),
-    (belmeta,
-     'https://belmeta.com/%D0%B2%D0%B0%D0%BA%D0%B0%D0%BD%D1%81%D0%B8%D0%B8/Python/%D0%9C%D0%B8%D0%BD%D1%81%D0%BA'),
-    (dev_by, 'https://jobs.dev.by/?filter[city_id][]=4429&filter[search]=python')
+    (rabota_by, 'rabota_by'),
+    (belmeta, 'belmeta'),
+    (dev_by, 'dev_by')
 )
 
 
@@ -42,24 +41,30 @@ def get_urls(_settings):
         tmp = {}
         tmp['city'] = pair[0]
         tmp['language'] = pair[1]
-        tmp['url_data'] = pair[pair]
+        tmp['url_data'] = url_dct[pair]
         urls.append(tmp)
     return urls
 
-q = get_settings()
-u = get_urls(q)
 
-city = City.objects.filter(slug='minsk').first()
-language = Language.objects.filter(slug='python').first()
+"""id language and city"""
+settings = get_settings()
+"""get url on id"""
+url_list = get_urls(settings)
+
+# city = City.objects.filter(slug='minsk').first()
+# language = Language.objects.filter(slug='python').first()
 
 jobs, errors = [], []
-for func, url in parsers:
-    j, e = func(url)
-    jobs += j
-    errors += e
+for data in url_list:
+
+    for func, key in parsers:
+        url = data['url_data'][key]
+        j, e = func(url, city=data['city'], language=data['language'])
+        jobs += j
+        errors += e
 
 for job in jobs:
-    v = Vacancy(**job, city=city, language=language)
+    v = Vacancy(**job)
     try:
         v.save()
     except DatabaseError:
