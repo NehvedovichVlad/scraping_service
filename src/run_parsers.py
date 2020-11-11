@@ -1,5 +1,7 @@
-import codecs
-import os, sys
+import os
+import sys
+
+from django.contrib.auth import get_user_model
 
 proj = os.path.dirname(os.path.abspath('manage.py'))
 sys.path.append(proj)
@@ -10,8 +12,9 @@ django.setup()
 
 from django.db import DatabaseError
 from scraping.parsers import *
-
 from scraping.models import Vacancy, City, Language, Error
+
+User = get_user_model()
 
 parsers = (
     (rabota_by,
@@ -20,6 +23,14 @@ parsers = (
      'https://belmeta.com/%D0%B2%D0%B0%D0%BA%D0%B0%D0%BD%D1%81%D0%B8%D0%B8/Python/%D0%9C%D0%B8%D0%BD%D1%81%D0%BA'),
     (dev_by, 'https://jobs.dev.by/?filter[city_id][]=4429&filter[search]=python')
 )
+
+
+def get_settings():
+    """Get id language and city for our users"""
+    qs = User.objects.filter(send_email=True).values()
+    settings_lst = set((q['city_id'], q['language_id']) for q in qs)
+    return settings_lst
+
 
 city = City.objects.filter(slug='minsk').first()
 language = Language.objects.filter(slug='python').first()
