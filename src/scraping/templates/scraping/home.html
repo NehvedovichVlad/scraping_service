@@ -1,14 +1,18 @@
 {% extends "base.html" %}
 
 {% block title %}Главная страница{% endblock %}
+
+
 {% block search %}
 <div class="jumbotron">
-  <form>
+  <form method="GET" action="{% url 'list' %}">
     <div class="row">
       <div class col-md-4>
         <p><img src="https://img2.pngio.com/how-difficult-is-it-to-provide-web-scraping-services-data-scraping-png-387_293.png" alt="скрапинг"></p>
       </div>
       <div class="form-group col-md-6 mx-auto">
+        <h2 class="text-right mb-5">Сервис по сбору и рассылки вакансий</h2>
+
         {{ form.as_p }}
       </div>
     </div>
@@ -22,32 +26,6 @@
 
 </div>
 
-{% endblock %}
-{% block vacancy %}
-
-<div class="container mt-4">
-
-  <div class="row">
-    {% for obj in object_list %}
-    <div class="col-md-4">
-      <div class="card mb-3 shadow-sm">
-        <div class="card-body">
-          <h5 class="card-title"><a href="{{obj.url}}">{{obj.title}}</a></h5>
-          <h6 class="card-subtitle mb-2 text-muted">{{obj.company}}</h6>
-          <p class="card-text">{{obj.description|truncatechars:120}}</p>
-        </div>
-        <ul class="list-group list-group-flush">
-          <li class="list-group-item">{{obj.city.name}} | {{obj.language.name}} |
-            {{obj.timestamp|date:"d.m.Y"}}</li>
-        </ul>
-        <div class="card-body">
-          <a href="{{obj.url}}" class="card-link {% cycle 'text-danger' 'text-warning' 'text-success'%}">Подробнее</a>
-        </div>
-      </div>
-    </div>
-    {% endfor %}
-  </div>
-</div>
 
 {% endblock %}
 
