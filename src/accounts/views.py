@@ -1,7 +1,8 @@
+from django.contrib import messages
 from django.shortcuts import render, redirect
 from django.contrib.auth import authenticate, login, logout
 
-from accounts.forms import UserLoginForm
+from accounts.forms import UserLoginForm, UserRegisterForm
 
 
 def login_view(request):
@@ -20,8 +21,33 @@ def login_view(request):
         form = UserLoginForm()
         return render(request, 'accounts/login.html', {'form': form})
 
+
 def logout_view(request):
     logout(request)
     return redirect('home')
 
 
+def register_view(request):
+    if request.method == 'POST':
+        form = UserRegisterForm(request.POST or None)
+        if form.is_valid():
+            new_user = form.save(commit=False)
+            new_user.set_password(form.cleaned_data['password'])
+            new_user.save()
+            return render(request, 'accounts/register_done.html', {'new_user': new_user})
+        else:
+            messages.error(request, 'Ошибка регистрации')
+    else:
+        form = UserRegisterForm()
+    return render(request, 'accounts/register.html', {'form': form})
+
+# def register_view(request):
+#     form = UserRegisterForm(request.POST or None)
+#     if form.is_valid():
+#         new_user = form.save(commit=False)
+#         new_user.set_password(form.cleaned_data['password'])
+#         new_user.save()
+#         return render(request, 'accounts/register_done.html', {'new_user': new_user})
+# 
+#     else:
+#         return render(request, 'accounts/register.html', {'form': form})
