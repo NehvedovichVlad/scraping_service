@@ -16,9 +16,13 @@
 
       <div class="form-group col-md-6 mx-auto">
          <button type="submit" class="btn btn-primary btn-block">Сохранить</button>
-
       </div>
 
+   </form>
+   <form method="POST" action="{% url 'delete' %}"> {% csrf_token %}
+      <div class="form-group col-md-6 mx-auto">
+         <button type="submit" class="btn btn-danger btn-block">Удалить аккаунт</button>
+      </div>
    </form>
 
 </div>
