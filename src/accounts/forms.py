@@ -6,7 +6,7 @@ User = get_user_model()
 
 
 class UserLoginForm(forms.Form):
-    email = forms.CharField(widget=forms.EmailInput(attrs={'class': 'form-control'}))
+    email = forms.EmailField(widget=forms.EmailInput(attrs={'class': 'form-control'}))
     password = forms.CharField(widget=forms.PasswordInput(attrs={'class': 'form-control'}))
 
     def clean(self, *args, **kwargs):
@@ -15,7 +15,7 @@ class UserLoginForm(forms.Form):
 
         if email and password:
             qs = User.objects.filter(email=email)
-            if not qs.exsist():
+            if not qs.exists():
                 raise forms.ValidationError('Такого пользователя нет')
             if not check_password(password, qs[0].password):
                 raise forms.ValidationError('Пароль не верный')
