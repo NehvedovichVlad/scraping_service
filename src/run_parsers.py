@@ -27,6 +27,7 @@ parsers = (
 
 jobs, errors = [], []
 
+
 def get_settings():
     """Get set id language and city for our users"""
     qs = User.objects.filter(send_email=True).values()
@@ -47,6 +48,7 @@ def get_urls(_settings):
         urls.append(tmp)
     return urls
 
+
 async def main(value):
     func, url, city, language = value
     job, err = await loop.run_in_executor(None, func, url, city, language)
@@ -58,7 +60,6 @@ async def main(value):
 settings = get_settings()
 """get url on id"""
 url_list = get_urls(settings)
-
 
 loop = asyncio.get_event_loop()
 tmp_tasks = [(func, data['url_data'][key], data['city'], data['language'])
