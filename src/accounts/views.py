@@ -6,6 +6,7 @@ from accounts.forms import UserLoginForm, UserRegisterForm, UserUpdateForm
 
 User = get_user_model()
 
+
 def login_view(request):
     if request.method == 'POST':
         form = UserLoginForm(request.POST)
@@ -35,6 +36,7 @@ def register_view(request):
             new_user = form.save(commit=False)
             new_user.set_password(form.cleaned_data['password'])
             new_user.save()
+            messages.success(request, 'Пользователь добавлен в систему.')
             return render(request, 'accounts/register_done.html', {'new_user': new_user})
         else:
             messages.error(request, 'Ошибка регистрации')
@@ -55,6 +57,8 @@ def update_view(request):
                 user.language = data['language']
                 user.send_email = data['send_email']
                 user.save()
+                messages.success(request, 'Данные сохранены')
+
                 return redirect('home')
             
         form = UserUpdateForm(
@@ -72,4 +76,5 @@ def delete_view(request):
         if request.method == 'POST':
             qs = User.objects.get(pk=user.pk)
             qs.delete()
+            messages.error(request, 'Пользователь удален')
     return redirect('home')
