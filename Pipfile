@@ -10,6 +10,7 @@ django = "*"
 requests = "*"
 beautifulsoup4 = "*"
 django-jsonfield = "*"
+python-dotenv = "*"
 
 [requires]
 python_version = "3.8"
