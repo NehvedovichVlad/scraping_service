@@ -1,6 +1,7 @@
 import os
 import sys
 import django
+import datetime
 from django.contrib.auth import get_user_model
 from django.core.mail import EmailMultiAlternatives
 
@@ -9,9 +10,12 @@ sys.path.append(proj)
 os.environ['DJANGO_SETTINGS_MODULE'] = "scraping_service.settings"
 
 django.setup()
-from scraping.models import Vacancy
+from scraping.models import Vacancy, Error
 from scraping_service.settings import EMAIL_HOST_USER
-subject = "Рассылка вакансий"
+ADMIN_USER = EMAIL_HOST_USER
+
+today = datetime.date.today()
+subject = f"Рассылка вакансий за {today}"
 text_content = "Рассылка вакансий"
 from_email = EMAIL_HOST_USER
 
@@ -27,7 +31,7 @@ if users_dct:
     for pair in users_dct.keys():
         params['city_id__in'].append(pair[0])
         params['language_id__in'].append(pair[1])
-    qs = Vacancy.objects.filter(**params).values()[:20]
+    qs = Vacancy.objects.filter(**params, timestamp=today).values()[:20]
     vacancies = {}
     for i in qs:
         vacancies.setdefault((i['city_id'], i['language_id']), [])
@@ -42,8 +46,19 @@ if users_dct:
         _html = html if html else empty
         for email in emails:
             to = email
-            msg = EmailMultiAlternatives(subject, text_content, from_email,
-                                         [to])
+            msg = EmailMultiAlternatives(subject, text_content, from_email, [to])
             msg.attach_alternative(_html, "text/html")
             msg.send()
-
+qs = Error.objects.filter(timestamp=today)
+if qs.exists():
+    error = qs.first()
+    data = error.data
+    _html = ''
+    for i in data:
+        _html += f'<p><a href="{i["url"]}">Error: {i["title"]}</a></p>'
+        subject = ""
+        text_content = ""
+        to = ADMIN_USER
+        msg = EmailMultiAlternatives(subject, text_content, from_email, [to])
+        msg.attach_alternative(_html, "text/html")
+        msg.send()
