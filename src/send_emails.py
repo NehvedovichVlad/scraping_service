@@ -10,7 +10,7 @@ sys.path.append(proj)
 os.environ['DJANGO_SETTINGS_MODULE'] = "scraping_service.settings"
 
 django.setup()
-from scraping.models import Vacancy, Error
+from scraping.models import Vacancy, Error, Url 
 from scraping_service.settings import EMAIL_HOST_USER
 ADMIN_USER = EMAIL_HOST_USER
 
@@ -49,16 +49,34 @@ if users_dct:
             msg = EmailMultiAlternatives(subject, text_content, from_email, [to])
             msg.attach_alternative(_html, "text/html")
             msg.send()
+
 qs = Error.objects.filter(timestamp=today)
+subject = ""
+text_content = ""
+_html = ''
+to = ADMIN_USER
+
 if qs.exists():
     error = qs.first()
     data = error.data
-    _html = ''
+
     for i in data:
         _html += f'<p><a href="{i["url"]}">Error: {i["title"]}</a></p>'
-        subject = ""
-        text_content = ""
-        to = ADMIN_USER
-        msg = EmailMultiAlternatives(subject, text_content, from_email, [to])
-        msg.attach_alternative(_html, "text/html")
-        msg.send()
+        subject = f"Ошибки скрапинга { today }"
+        text_content = "Ошибки скрапинга"
+
+"""Search for keys that don't have urls"""
+qs = Url.objects.all().values('city', 'language')
+url_dct = {(i['city_id'], i['language_id']): True for i in qs}
+urls_err = ""
+for keys in users_dct.keys():
+    if keys not in url_dct:
+        urls_err += f'<p> Для города {keys[0]} и ЯП: {keys[1]} отсутсвуют урлы</p><br>'
+if urls_err:
+    subject = " Отсутствуют урлы"
+    _html += urls_err
+
+if subject:
+    msg = EmailMultiAlternatives(subject, text_content, from_email, [to])
+    msg.attach_alternative(_html, "text/html")
+    msg.send()
