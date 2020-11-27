@@ -1,7 +1,7 @@
 import asyncio
 import os
 import sys
-
+import datetime as dt
 from django.contrib.auth import get_user_model
 
 proj = os.path.dirname(os.path.abspath('manage.py'))
@@ -86,7 +86,13 @@ for job in jobs:
     except DatabaseError:
         pass
 if errors:
-    er = Error(data=f'errors:{errors}').save()
+    qs = Error.objets.filter(timestamp=dt.date.today())
+    if qs.exsists():
+        err = qs.first()
+        err.data.update({'errors': errors})
+        err.save()
+    else:
+        er = Error(data=f'errors:{errors}').save()
 
 # h = codecs.open('work.txt', 'w', 'utf-8')
 # h.write(str(jobs))
