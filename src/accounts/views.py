@@ -1,8 +1,10 @@
 from django.contrib import messages
 from django.shortcuts import render, redirect
 from django.contrib.auth import authenticate, login, logout, get_user_model
+import datetime as dt
 
-from accounts.forms import UserLoginForm, UserRegisterForm, UserUpdateForm
+from accounts.forms import UserLoginForm, UserRegisterForm, UserUpdateForm, ContactForm
+from scraping.models import Error
 
 User = get_user_model()
 
@@ -47,6 +49,7 @@ def register_view(request):
 
 def update_view(request):
     """checks if the user is registered"""
+    contact_from = ContactForm()
     if request.user.is_authenticated:
         user = request.user
         if request.method == 'POST':
@@ -60,12 +63,13 @@ def update_view(request):
                 messages.success(request, 'Данные сохранены')
 
                 return redirect('home')
-            
+
         form = UserUpdateForm(
-            initial={'city': user.city, 'language': user.language, 
+            initial={'city': user.city, 'language': user.language,
                      'send_email': user.send_email}
         )
-        return render(request, 'accounts/update.html', {'form': form})
+        return render(request, 'accounts/update.html',
+                      {'form': form, 'contact_from': contact_from})
     else:
         return redirect('login')
 
@@ -78,3 +82,28 @@ def delete_view(request):
             qs.delete()
             messages.error(request, 'Пользователь удален')
     return redirect('home')
+
+
+def contact(request):
+    if request.method == 'POST':
+        contact_form = ContactForm(request.POST)
+        if contact_form.is_valid():
+            data = contact_form.cleaned_data
+            city = data.get('city')
+            language = data.get('language')
+            email = data.get('email')
+            qs = Error.objects.filter(timestamp=dt.date.today())
+            if qs.exsists():
+                err = qs.first()
+                data = err.data.get('user_data', [])
+                data.append({'city': city, 'email': email, 'language': language})
+                err.data['user_data'] = data
+                err.save()
+            else:
+                data = [{'city': city, 'email': email, 'language': language}]
+                Error(data=f"user_data:{data}").save()
+        else:
+            return redirect('update')
+
+    else:
+        return redirect('login')
