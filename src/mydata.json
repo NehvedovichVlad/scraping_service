@@ -1,0 +1,1506 @@
+[
+{
+  "model": "admin.logentry",
+  "pk": 1,
+  "fields": {
+    "action_time": "2020-11-10T18:11:20.483Z",
+    "user": 1,
+    "content_type": 6,
+    "object_id": "1",
+    "object_repr": "Минск",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Slug\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 2,
+  "fields": {
+    "action_time": "2020-11-10T18:11:28.734Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "1",
+    "object_repr": "Python",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 3,
+  "fields": {
+    "action_time": "2020-11-11T11:07:12.655Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "1",
+    "object_repr": "Url object (1)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 4,
+  "fields": {
+    "action_time": "2020-11-11T14:43:33.000Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "1",
+    "object_repr": "nehvya@mail.ru",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Language\", \"City\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 5,
+  "fields": {
+    "action_time": "2020-11-17T12:51:52.321Z",
+    "user": 2,
+    "content_type": 9,
+    "object_id": "2",
+    "object_repr": "v@mail.ru",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Language\", \"City\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 6,
+  "fields": {
+    "action_time": "2020-11-20T16:01:35.108Z",
+    "user": 2,
+    "content_type": 9,
+    "object_id": "8",
+    "object_repr": "aa@mail.ru",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 7,
+  "fields": {
+    "action_time": "2020-11-20T16:01:35.214Z",
+    "user": 2,
+    "content_type": 9,
+    "object_id": "16",
+    "object_repr": "asd@mail.ru",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 8,
+  "fields": {
+    "action_time": "2020-11-20T16:01:35.321Z",
+    "user": 2,
+    "content_type": 9,
+    "object_id": "15",
+    "object_repr": "asdas@mail.ru",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 9,
+  "fields": {
+    "action_time": "2020-11-20T16:01:35.405Z",
+    "user": 2,
+    "content_type": 9,
+    "object_id": "14",
+    "object_repr": "asdss@mail.ru",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 10,
+  "fields": {
+    "action_time": "2020-11-20T16:01:35.512Z",
+    "user": 2,
+    "content_type": 9,
+    "object_id": "9",
+    "object_repr": "axa@mail.ru",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 11,
+  "fields": {
+    "action_time": "2020-11-20T16:01:35.609Z",
+    "user": 2,
+    "content_type": 9,
+    "object_id": "22",
+    "object_repr": "c@mail.ru",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 12,
+  "fields": {
+    "action_time": "2020-11-20T16:01:35.788Z",
+    "user": 2,
+    "content_type": 9,
+    "object_id": "10",
+    "object_repr": "ff@mail.ru",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 13,
+  "fields": {
+    "action_time": "2020-11-20T16:01:35.873Z",
+    "user": 2,
+    "content_type": 9,
+    "object_id": "11",
+    "object_repr": "p@mail.ru",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 14,
+  "fields": {
+    "action_time": "2020-11-20T16:01:35.959Z",
+    "user": 2,
+    "content_type": 9,
+    "object_id": "12",
+    "object_repr": "plp@mail.ru",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 15,
+  "fields": {
+    "action_time": "2020-11-20T16:01:36.044Z",
+    "user": 2,
+    "content_type": 9,
+    "object_id": "3",
+    "object_repr": "s@mail.ru",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 16,
+  "fields": {
+    "action_time": "2020-11-20T16:01:36.131Z",
+    "user": 2,
+    "content_type": 9,
+    "object_id": "4",
+    "object_repr": "ss@mail.ru",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 17,
+  "fields": {
+    "action_time": "2020-11-20T16:01:36.213Z",
+    "user": 2,
+    "content_type": 9,
+    "object_id": "5",
+    "object_repr": "ssd@mail.ru",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 18,
+  "fields": {
+    "action_time": "2020-11-20T16:01:36.299Z",
+    "user": 2,
+    "content_type": 9,
+    "object_id": "17",
+    "object_repr": "va@mail.ru",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 19,
+  "fields": {
+    "action_time": "2020-11-20T16:01:36.384Z",
+    "user": 2,
+    "content_type": 9,
+    "object_id": "6",
+    "object_repr": "vd@mail.ru",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 20,
+  "fields": {
+    "action_time": "2020-11-20T16:01:36.470Z",
+    "user": 2,
+    "content_type": 9,
+    "object_id": "7",
+    "object_repr": "vdd@mail.ru",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 21,
+  "fields": {
+    "action_time": "2020-11-20T16:01:36.564Z",
+    "user": 2,
+    "content_type": 9,
+    "object_id": "18",
+    "object_repr": "vsa@mail.ru",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 22,
+  "fields": {
+    "action_time": "2020-11-20T16:01:36.672Z",
+    "user": 2,
+    "content_type": 9,
+    "object_id": "19",
+    "object_repr": "vssa@mail.ru",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 23,
+  "fields": {
+    "action_time": "2020-11-20T16:01:36.757Z",
+    "user": 2,
+    "content_type": 9,
+    "object_id": "20",
+    "object_repr": "vssaa@mail.ru",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 24,
+  "fields": {
+    "action_time": "2020-11-20T16:17:05.407Z",
+    "user": 2,
+    "content_type": 9,
+    "object_id": "2",
+    "object_repr": "v@mail.ru",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Language\", \"City\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 25,
+  "fields": {
+    "action_time": "2020-11-20T16:44:53.375Z",
+    "user": 2,
+    "content_type": 9,
+    "object_id": "1",
+    "object_repr": "vladislavnehvedovich@gmail.com",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Email address\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 26,
+  "fields": {
+    "action_time": "2020-11-20T17:09:10.091Z",
+    "user": 2,
+    "content_type": 9,
+    "object_id": "2",
+    "object_repr": "v@mail.ru",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Send email\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 27,
+  "fields": {
+    "action_time": "2020-11-20T20:01:10.457Z",
+    "user": 2,
+    "content_type": 9,
+    "object_id": "1",
+    "object_repr": "vladislavnehvedovich@gmail.com",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Is admin\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 28,
+  "fields": {
+    "action_time": "2020-11-27T12:16:37.703Z",
+    "user": 2,
+    "content_type": 10,
+    "object_id": "1",
+    "object_repr": "2020-11-27",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 29,
+  "fields": {
+    "action_time": "2020-11-27T12:23:47.042Z",
+    "user": 2,
+    "content_type": 10,
+    "object_id": "1",
+    "object_repr": "2020-11-27",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Data\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 30,
+  "fields": {
+    "action_time": "2020-11-27T12:24:13.009Z",
+    "user": 2,
+    "content_type": 10,
+    "object_id": "1",
+    "object_repr": "2020-11-27",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Data\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 31,
+  "fields": {
+    "action_time": "2020-11-27T14:01:25.618Z",
+    "user": 2,
+    "content_type": 10,
+    "object_id": "1",
+    "object_repr": "2020-11-27",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Data\"]}}]"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 1,
+  "fields": {
+    "name": "Can add log entry",
+    "content_type": 1,
+    "codename": "add_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 2,
+  "fields": {
+    "name": "Can change log entry",
+    "content_type": 1,
+    "codename": "change_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 3,
+  "fields": {
+    "name": "Can delete log entry",
+    "content_type": 1,
+    "codename": "delete_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 4,
+  "fields": {
+    "name": "Can view log entry",
+    "content_type": 1,
+    "codename": "view_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 5,
+  "fields": {
+    "name": "Can add permission",
+    "content_type": 2,
+    "codename": "add_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 6,
+  "fields": {
+    "name": "Can change permission",
+    "content_type": 2,
+    "codename": "change_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 7,
+  "fields": {
+    "name": "Can delete permission",
+    "content_type": 2,
+    "codename": "delete_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 8,
+  "fields": {
+    "name": "Can view permission",
+    "content_type": 2,
+    "codename": "view_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 9,
+  "fields": {
+    "name": "Can add group",
+    "content_type": 3,
+    "codename": "add_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 10,
+  "fields": {
+    "name": "Can change group",
+    "content_type": 3,
+    "codename": "change_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 11,
+  "fields": {
+    "name": "Can delete group",
+    "content_type": 3,
+    "codename": "delete_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 12,
+  "fields": {
+    "name": "Can view group",
+    "content_type": 3,
+    "codename": "view_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 13,
+  "fields": {
+    "name": "Can add content type",
+    "content_type": 4,
+    "codename": "add_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 14,
+  "fields": {
+    "name": "Can change content type",
+    "content_type": 4,
+    "codename": "change_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 15,
+  "fields": {
+    "name": "Can delete content type",
+    "content_type": 4,
+    "codename": "delete_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 16,
+  "fields": {
+    "name": "Can view content type",
+    "content_type": 4,
+    "codename": "view_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 17,
+  "fields": {
+    "name": "Can add session",
+    "content_type": 5,
+    "codename": "add_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 18,
+  "fields": {
+    "name": "Can change session",
+    "content_type": 5,
+    "codename": "change_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 19,
+  "fields": {
+    "name": "Can delete session",
+    "content_type": 5,
+    "codename": "delete_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 20,
+  "fields": {
+    "name": "Can view session",
+    "content_type": 5,
+    "codename": "view_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 21,
+  "fields": {
+    "name": "Can add Город",
+    "content_type": 6,
+    "codename": "add_city"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 22,
+  "fields": {
+    "name": "Can change Город",
+    "content_type": 6,
+    "codename": "change_city"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 23,
+  "fields": {
+    "name": "Can delete Город",
+    "content_type": 6,
+    "codename": "delete_city"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 24,
+  "fields": {
+    "name": "Can view Город",
+    "content_type": 6,
+    "codename": "view_city"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 25,
+  "fields": {
+    "name": "Can add Язык программирования",
+    "content_type": 7,
+    "codename": "add_language"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 26,
+  "fields": {
+    "name": "Can change Язык программирования",
+    "content_type": 7,
+    "codename": "change_language"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 27,
+  "fields": {
+    "name": "Can delete Язык программирования",
+    "content_type": 7,
+    "codename": "delete_language"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 28,
+  "fields": {
+    "name": "Can view Язык программирования",
+    "content_type": 7,
+    "codename": "view_language"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 29,
+  "fields": {
+    "name": "Can add Вакансия",
+    "content_type": 8,
+    "codename": "add_vacancy"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 30,
+  "fields": {
+    "name": "Can change Вакансия",
+    "content_type": 8,
+    "codename": "change_vacancy"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 31,
+  "fields": {
+    "name": "Can delete Вакансия",
+    "content_type": 8,
+    "codename": "delete_vacancy"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 32,
+  "fields": {
+    "name": "Can view Вакансия",
+    "content_type": 8,
+    "codename": "view_vacancy"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 33,
+  "fields": {
+    "name": "Can add my user",
+    "content_type": 9,
+    "codename": "add_myuser"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 34,
+  "fields": {
+    "name": "Can change my user",
+    "content_type": 9,
+    "codename": "change_myuser"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 35,
+  "fields": {
+    "name": "Can delete my user",
+    "content_type": 9,
+    "codename": "delete_myuser"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 36,
+  "fields": {
+    "name": "Can view my user",
+    "content_type": 9,
+    "codename": "view_myuser"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 37,
+  "fields": {
+    "name": "Can add error",
+    "content_type": 10,
+    "codename": "add_error"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 38,
+  "fields": {
+    "name": "Can change error",
+    "content_type": 10,
+    "codename": "change_error"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 39,
+  "fields": {
+    "name": "Can delete error",
+    "content_type": 10,
+    "codename": "delete_error"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 40,
+  "fields": {
+    "name": "Can view error",
+    "content_type": 10,
+    "codename": "view_error"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 41,
+  "fields": {
+    "name": "Can add url",
+    "content_type": 11,
+    "codename": "add_url"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 42,
+  "fields": {
+    "name": "Can change url",
+    "content_type": 11,
+    "codename": "change_url"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 43,
+  "fields": {
+    "name": "Can delete url",
+    "content_type": 11,
+    "codename": "delete_url"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 44,
+  "fields": {
+    "name": "Can view url",
+    "content_type": 11,
+    "codename": "view_url"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 1,
+  "fields": {
+    "app_label": "admin",
+    "model": "logentry"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 2,
+  "fields": {
+    "app_label": "auth",
+    "model": "permission"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 3,
+  "fields": {
+    "app_label": "auth",
+    "model": "group"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 4,
+  "fields": {
+    "app_label": "contenttypes",
+    "model": "contenttype"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 5,
+  "fields": {
+    "app_label": "sessions",
+    "model": "session"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 6,
+  "fields": {
+    "app_label": "scraping",
+    "model": "city"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 7,
+  "fields": {
+    "app_label": "scraping",
+    "model": "language"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 8,
+  "fields": {
+    "app_label": "scraping",
+    "model": "vacancy"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 9,
+  "fields": {
+    "app_label": "accounts",
+    "model": "myuser"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 10,
+  "fields": {
+    "app_label": "scraping",
+    "model": "error"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 11,
+  "fields": {
+    "app_label": "scraping",
+    "model": "url"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "4gqqsybesp2vh41jbiuv976muaihyjnl",
+  "fields": {
+    "session_data": ".eJxVjDEOAiEQRe9CbYgOsjCW9p6BDDMgqwaSZbcy3t2QbKHtf-_9twq0rSVsPS1hFnVRoA6_WyR-pjqAPKjem-ZW12WOeih6p13fmqTXdXf_Dgr1MmrMxjF6cIh4njJnZ4EQTp7RJiAQtOQtHNEkSw6cn6JnC0CZjYhTny_NKzdz:1kjlIV:UM-F3SpqYYaHoHub2kFJNDOEjEeU6STKyfaSXwkx254",
+    "expire_date": "2020-12-14T15:41:03.968Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "ao8zs9ehz9yc1pewifzy67k7lzd6lupx",
+  "fields": {
+    "session_data": ".eJxVjEsOwjAMBe-SNYpSV04IS_acoXJimxRQIvWzqrg7VOoCtm9m3mYGWpcyrLNMw8jmYqA3p98xUX5K3Qk_qN6bza0u05jsrtiDzvbWWF7Xw_07KDSXb-2DQ-hZNLmoZyCInJXYCSIGFnHKjtW7SB1GBIEcuoAxag5BwSfz_gAb0Dh6:1kieUU:kKbqcNTuqLMVEbmGhpBgTzHp7fLGaiTEjGQtRpw2c34",
+    "expire_date": "2020-12-11T14:12:50.785Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "oxqiwz63tahngirfd6ucv2nb3qq66j3a",
+  "fields": {
+    "session_data": ".eJxVjEEOwiAQRe_C2hA6Tgu4dO8ZyDBMpWogKe3KeHdD0oVu_3vvv1Wgfcthb7KGJamLAnX63SLxU0oH6UHlXjXXsq1L1F3RB236VpO8rof7d5Cp5V4zWjeCGGGayAFbcAyjOUcgj2Z2fkCwHgQm4gjoIyMKOTMj8-BYfb7bRzfK:1kfRZB:lb9s7EeSdRDkG7lO5s2hvPfCgEAVIRmdr8_IQPfTOPM",
+    "expire_date": "2020-12-02T17:48:25.045Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "zsbuue82kpcc8s8yr9j36h44w0x3m2cp",
+  "fields": {
+    "session_data": ".eJxVjMsOwiAQRf-FtSHDG1y69xvIMIBUDU1KuzL-uzbpQrf3nHNfLOK2triNssQpszMT7PS7JaRH6TvId-y3mdPc12VKfFf4QQe_zrk8L4f7d9BwtG-tDJG21VcZgHJyggBK9goDgarGAshq0WUdwIEmg0b6Sl54CUoHLdj7A92uNwg:1kb7Ld:-4DoG9QYzSomUw7kVwAVXbBtJKBc3KxX2f06zeTBzUY",
+    "expire_date": "2020-11-20T19:24:33.932Z"
+  }
+},
+{
+  "model": "scraping.city",
+  "pk": 1,
+  "fields": {
+    "name": "Минск",
+    "slug": "minsk"
+  }
+},
+{
+  "model": "scraping.city",
+  "pk": 2,
+  "fields": {
+    "name": "Гродно",
+    "slug": "гродно"
+  }
+},
+{
+  "model": "scraping.language",
+  "pk": 1,
+  "fields": {
+    "name": "Python",
+    "slug": "python"
+  }
+},
+{
+  "model": "scraping.language",
+  "pk": 2,
+  "fields": {
+    "name": "Java",
+    "slug": "java"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 1,
+  "fields": {
+    "url": "https://rabota.by/vacancy/39449149",
+    "title": "Python Developer",
+    "company": "APPSULOVE",
+    "description": "Опыт работы Python разработчиком от 2-х лет. Опыт работы с Postgres, Apache Kafka, Redis. Опыт работы с Python фреймворками..",
+    "city": 1,
+    "language": 1,
+    "timestamp": "2020-11-04"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 2,
+  "fields": {
+    "url": "https://rabota.by/vacancy/39892371",
+    "title": "Python Developer",
+    "company": "Девхаб",
+    "description": "Разработка и поддержка текущей API. Участие в разработке архитектуры БД. Оперирование большими объемами данных. Поддержка и проектирование обширной скрейпинг системы.\r\nОтличное знание Python. Уверенное владение языком запросов SQL, в частности Postgresql. Знание базовых структур данных (списки, дикты и т.д.).",
+    "city": 1,
+    "language": 1,
+    "timestamp": "2020-11-04"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 3,
+  "fields": {
+    "url": "https://hh.ru/vacancy/39902901?query=Python",
+    "title": "Python Django developer",
+    "company": " EXANTE",
+    "description": "Задачи касаются разработки внутренних сервисов платформы - CRM и личного кабинета пользователя.Практический опыт применения Django, Python 3. Интересные проекты в резюме, над которыми вы работали (в идеале в области финансовых технологий). ",
+    "city": 1,
+    "language": 1,
+    "timestamp": "2020-11-10"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 4,
+  "fields": {
+    "url": "https://hh.ru/vacancy/40330757?query=Python",
+    "title": "Python developer",
+    "company": " B2Broker Москва",
+    "description": "Имеет опыт коммерческой разработки на Python от 2 лет. Знает и умеет использовать: итераторы, генераторы, потоки. Отлично владеет знаниями параллелизма...",
+    "city": 1,
+    "language": 1,
+    "timestamp": "2020-11-10"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 5,
+  "fields": {
+    "url": "https://rabota.by/vacancy/39753606?query=Python",
+    "title": "Python Developer",
+    "company": " Софтмакс системы телеметрии",
+    "description": "Разработка приложений для аналитических систем телеметрии, геоинформационных систем. С широким диапазоном применяемых технологий (включая высокоуровневое и низкоуровневое программирование, контроллеры, мобильные...Опыт разработки сетевых сервисов, работа с протоколами TCP/IP. Опыт работы с реляционными и нереляционными БД. Знание T-SQL на...",
+    "city": 1,
+    "language": 1,
+    "timestamp": "2020-11-10"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 6,
+  "fields": {
+    "url": "https://hh.ru/vacancy/40171153?query=Python",
+    "title": "Python developer",
+    "company": "ООО Бизнес солюшинс лаб",
+    "description": "Разработка сервисов и их интеграция в основные проекты компании. Создание безопасного, производительного и тестируемого кода. Непосредственное участие в разработке архитектуры...Профессиональный опыт разработки проектов Python 3 от 2-х лет. Опыт работы с любой реляционной СУБД (PostgreSQL). Знание базовых алгоритмов...",
+    "city": 1,
+    "language": 1,
+    "timestamp": "2020-11-10"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 7,
+  "fields": {
+    "url": "https://hh.ru/vacancy/37706581?query=Python",
+    "title": "Full stack developer (Python / Django / Vue)",
+    "company": " EXANTE",
+    "description": "Задачи касаются разработки внутренних сервисов платформы - CRM и личного кабинета пользователя.Практический опыт применения Django, Python 2/3 и знание одного из JS и фреймворков. Интересные проекты в резюме, над которыми...",
+    "city": 1,
+    "language": 1,
+    "timestamp": "2020-11-10"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 8,
+  "fields": {
+    "url": "https://rabota.by/vacancy/39894822?query=Python",
+    "title": "Python developer",
+    "company": "ООО СТДев",
+    "description": "Develop new business modules and functions. Ensure development methodologies and best practices are followed through all the phases of development...2+ years of experience. Strong knowledge of Python, JavaScript, HTTP. Good knowledge of Flask, FastAPI. Effective communication skills in...",
+    "city": 1,
+    "language": 1,
+    "timestamp": "2020-11-10"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 9,
+  "fields": {
+    "url": "https://rabota.by/vacancy/40268268?query=Python",
+    "title": "Senior Python Developer",
+    "company": "Иностр. п. Admitad",
+    "description": "Разработка новых и развитие старых инструментов по обработке данных (больших данных). На изи генерит идеи и решения. - велосипеды зло. - Разрабатывает на Python больше 5ти лет. И отлично Python знает. Знает Django и Flask. Делится опытом. - лучший код – ненаписанный...",
+    "city": 1,
+    "language": 1,
+    "timestamp": "2020-11-10"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 10,
+  "fields": {
+    "url": "https://rabota.by/vacancy/36677020?query=Python",
+    "title": "Python (Back-end) Developer",
+    "company": " BP Mobile",
+    "description": "Web Scraping (Selenium, Beautiful Soup, Requests etc).Python (Django, Flask etc). JavaScript, NodeJS, HTML5, CSS3. Общий опыт работы более 5 лет.",
+    "city": 1,
+    "language": 1,
+    "timestamp": "2020-11-10"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 11,
+  "fields": {
+    "url": "https://rabota.by/vacancy/40268262?query=Python",
+    "title": "Middle Python Developer",
+    "company": "Иностр. п. Admitad",
+    "description": "Развивать бизнес-логику проекта. Разрабатывать нагруженный (>1.5k rps) гео-распределенный сервис. Заниматься интеграцией с нашими партнерами. Опыт Web разработки на Python от двух лет. Опыт работы с фреймворками на Python (Django/Flask/Falcon). Опыт работы с...",
+    "city": 1,
+    "language": 1,
+    "timestamp": "2020-11-10"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 12,
+  "fields": {
+    "url": "https://rabota.by/vacancy/39864855?query=Python",
+    "title": "Python Engineer",
+    "company": "ООО Инспекторио Бел",
+    "description": "Brainstorm, design, and develop our products. Design and implement reusable, testable, and efficient back-end features using Restful APIs, Microservices. Experience working in an agile environment. Experience with Python and Django/Flask. Good understanding of Front-end frameworks such as...",
+    "city": 1,
+    "language": 1,
+    "timestamp": "2020-11-10"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 13,
+  "fields": {
+    "url": "https://hh.ru/vacancy/39959985?query=Python",
+    "title": "Python Developer (Data Science)",
+    "company": " Sphere Consulting",
+    "description": "...and business stakeholders to operationalize Python based models and deliver insights to the business. Architect Python platforms which are highly...Experience with Python (4+). Experience with testing and integration of Python solutions. Experience with NoSQL and RDBMS. ",
+    "city": 1,
+    "language": 1,
+    "timestamp": "2020-11-10"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 14,
+  "fields": {
+    "url": "https://hh.ru/vacancy/40263353?query=Python",
+    "title": "Middle/Senior Python Developer (Django, DRF)",
+    "company": "ООО МэдКэт",
+    "description": "Мы команда Madcat — группа нескольких успешных проектов в закупке рекламы, а также в разработке мобильных приложений, с офисом в Минске. — Стек технологий: Django 2, DRF, Celery, PostgreSQL, Docker. — Опыт коммерческой разработки с использованием Django 2 (DRF и Celery). — ",
+    "city": 1,
+    "language": 1,
+    "timestamp": "2020-11-10"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 15,
+  "fields": {
+    "url": "https://rabota.by/vacancy/40247758?query=Python",
+    "title": "Python developer",
+    "company": " Andersen",
+    "description": "Знание Python с опытом разработки от 3-х лет. Опыт работы с фреймворком Django. Знакомство с другими фреймворками, такими как...",
+    "city": 1,
+    "language": 1,
+    "timestamp": "2020-11-10"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 16,
+  "fields": {
+    "url": "https://rabota.by/vacancy/40220446?query=Python",
+    "title": "Python Developer",
+    "company": " iTechArt Group",
+    "description": "Участие в полном цикле разработки программного обеспечения. Написание высококачественного кода на Python. Проведение code review. Общение напрямую с англоязычными заказчиками.Не знаешь слова «стоп» в своем профессиональном развитии и в курсе последних технических достижений в области разработки на Python.",
+    "city": 1,
+    "language": 1,
+    "timestamp": "2020-11-10"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 17,
+  "fields": {
+    "url": "https://rabota.by/vacancy/39814747?query=Python",
+    "title": "Python / JS Developer",
+    "company": "ООО СолбегСофт",
+    "description": "400+ employees with offices in Minsk, Brest, New York, San Diego, Mumbai.3+ years of experience in Python development. Profound experience in working with popular Python frameworks (Django, AsyncIO). ",
+    "city": 1,
+    "language": 1,
+    "timestamp": "2020-11-10"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 18,
+  "fields": {
+    "url": "https://rabota.by/vacancy/40174067?query=Python",
+    "title": "Python Developer",
+    "company": " Belitsoft",
+    "description": "Design and implement microservices in Python3.7+. Provide and receive constructive feedback from code reviews. Help us improve...A software professional with 3+ years of hands-on proven experience. A strong Python developer with proficient understanding of...",
+    "city": 1,
+    "language": 1,
+    "timestamp": "2020-11-10"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 19,
+  "fields": {
+    "url": "https://hh.ru/vacancy/39960029?query=Python",
+    "title": "Full-stack Engineer, Senior (Python)",
+    "company": " Sphere Consulting",
+    "description": "Design, develop, test, deploy, maintain and improve software with a strong focus on customer-facing features. Be the technical owner...Experience with Python (5+). Experience with JavaScript. Experience with React. Experience with algorithms, data structures, complexity analysis and software...",
+    "city": 1,
+    "language": 1,
+    "timestamp": "2020-11-10"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 20,
+  "fields": {
+    "url": "https://rabota.by/vacancy/40159710?query=Python",
+    "title": "Python developer/Python Data Engineer",
+    "company": "ООО Флэтлоджик",
+    "description": "Умели разрабатывать и поддерживать ETL процессы (Pandas, Apache airflow, Scrapy, Postgres).Имели 2+ лет опыта (Python). Имели опыт с PHP. Имели хорошие знания SQL. Английский (Advanced+). Желательно опыт работы с...",
+    "city": 1,
+    "language": 1,
+    "timestamp": "2020-11-10"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 21,
+  "fields": {
+    "url": "https://rabota.by/vacancy/40072908?query=Python",
+    "title": "Python Developer",
+    "company": "ООО Кернеликс / Kernelics",
+    "description": "Опыт коммерческой разработки на Python от 2 лет. Знание Django, Django REST Framework. Опыт работы с какой-либо реляционной базой...",
+    "city": 1,
+    "language": 1,
+    "timestamp": "2020-11-10"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 22,
+  "fields": {
+    "url": "https://rabota.by/vacancy/40048468?query=Python",
+    "title": "Junior Python Developer (Trainee/Students Lab)",
+    "company": " iTechArt Group",
+    "description": "...на Javascript и Python с использованием библиотек Bootstrap и Flask. Работа с популярными web библиотеками языка Python. Освоение world-class...Опыт разработки web проектов с использованием языка Python и баз данных PostgreSQL, MySQL или MongoDB, или с использованием языка Javascript...",
+    "city": 1,
+    "language": 1,
+    "timestamp": "2020-11-10"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 23,
+  "fields": {
+    "url": "https://rabota.by/vacancy/40040707?query=Python",
+    "title": "Python developer",
+    "company": " Innowise Group / Фабрика инноваций и решений",
+    "description": "Разработку web-приложений с использованием Python. Участие в проектах с налаженными процессами разработки. Участие в собеседованиях и отборе новых членов...Знания и опыт разработки на языке Python (3.x). Хорошие знания Django, Django rest framework, docker, docker-compose. ",
+    "city": 1,
+    "language": 1,
+    "timestamp": "2020-11-10"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 24,
+  "fields": {
+    "url": "https://rabota.by/vacancy/40012746?query=Python",
+    "title": "Backend  python/django Developer",
+    "company": "ЗАО МАПСОФТ",
+    "description": "Планирование задач, оценка кода. Работа в команде разработчиков проекта.Знания, которые мы хотим видеть у Вас: Опыта разработки Backend на python/django 3 года. Знание mysql (оптимизация таблиц и...",
+    "city": 1,
+    "language": 1,
+    "timestamp": "2020-11-10"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 25,
+  "fields": {
+    "url": "https://rabota.by/vacancy/38955238?query=Python",
+    "title": "Senior Python Developer",
+    "company": " RocketData",
+    "description": "Rocketdata.io – компания со своим продуктом, резидент Парка Высоких Технологий Беларуси, разрабатывающая платформу для управления информацией о бизнесе и работе с...3+ лет опыта разработки на Python. Уверенные знания и опыт применения различных паттернов проектирования. Опыт работы как с монолитом...",
+    "city": 1,
+    "language": 1,
+    "timestamp": "2020-11-10"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 26,
+  "fields": {
+    "url": "https://rabota.by/vacancy/39892371?query=Python",
+    "title": "Python Developer",
+    "company": " Девхаб",
+    "description": "Разработка и поддержка текущей API. Участие в разработке архитектуры БД. Оперирование большими объемами данных. Поддержка и проектирование обширной скрейпинг системы. Отличное знание Python. Уверенное владение языком запросов SQL, в частности Postgresql. Знание базовых структур данных (списки, дикты и т.д.). ",
+    "city": 1,
+    "language": 1,
+    "timestamp": "2020-11-10"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 27,
+  "fields": {
+    "url": "https://rabota.by/vacancy/39449149?query=Python",
+    "title": "Python Developer",
+    "company": " APPSULOVE",
+    "description": "Опыт работы Python разработчиком от 2-х лет. Опыт работы с Postgres, Apache Kafka, Redis. Опыт работы с Python фреймворками...",
+    "city": 1,
+    "language": 1,
+    "timestamp": "2020-11-10"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 28,
+  "fields": {
+    "url": "https://rabota.by/vacancy/38850307?query=Python",
+    "title": "Python Developer",
+    "company": "УП Руна Системс",
+    "description": "Development of applications with low latency, high availability and performance (low-latency, high-availability, performance). Integration of elements developed by...Experience with Python from 3 years (we use Python 3.7). Experience using the Django Rest Framework. Desire to work...",
+    "city": 1,
+    "language": 1,
+    "timestamp": "2020-11-10"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 29,
+  "fields": {
+    "url": "https://rabota.by/vacancy/39938552?query=Python",
+    "title": "Python Developer (Data Sciense)",
+    "company": "ООО IHS Global",
+    "description": "Performing data science tasks in the AI team. Participating in data engineering in projects with Deep Learning, Natural Language Processing...Strong programming skills — Python. Practical experience in building of ML/DL models with TensorFlow, Keras and/or PyTorch, etc. ",
+    "city": 1,
+    "language": 1,
+    "timestamp": "2020-11-10"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 30,
+  "fields": {
+    "url": "https://rabota.by/vacancy/39833209?query=Python",
+    "title": "Python Engineer",
+    "company": " SaM Solutions Самсолюшнс",
+    "description": "Support for data science development tasks in Machine Translation, including e.g. A) Optimization and transfer of containerized ML MVP...Fluent knowledge of Python. Knowledge of common standard ML Python libraries: e.g. Tensorflow and PyTorch. Experienced in optimization of...",
+    "city": 1,
+    "language": 1,
+    "timestamp": "2020-11-10"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 31,
+  "fields": {
+    "url": "https://rabota.by/vacancy/38148332?query=Python",
+    "title": "Python developer",
+    "company": " Oxagile",
+    "description": "Productize the data science work. Collaborate with the Data Scientists, Solution Architects and Business Analysts to ensure alignment between the...AI/ML/DL knowledge. Ability to read and understand C/C++ code.",
+    "city": 1,
+    "language": 1,
+    "timestamp": "2020-11-10"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 32,
+  "fields": {
+    "url": "https://rabota.by/vacancy/39801488?query=Python",
+    "title": "Разработчик Python",
+    "company": "ООО Бэлл Интегратор",
+    "description": "Поддержка и написание скриптов парсинга (внутренний скриптовый язык, Python). Поддержка и написание административных программ\\скриптов (Bash, Python). Участие в согласовании......с Python, Django. Умение работать с Git. Linux на уровне продвинутого пользователя. Опыт разработки на одном из языков программирования: python...",
+    "city": 1,
+    "language": 1,
+    "timestamp": "2020-11-10"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 33,
+  "fields": {
+    "url": "https://rabota.by/vacancy/39809439?query=Python",
+    "title": "Senior Python developer",
+    "company": " Innowise Group / Фабрика инноваций и решений",
+    "description": "Участвовать в проектировании архитектуры систем, обосновывать выбор технических решений. Работать в качестве Senior Python Dev на проекте. Участие в PreSale...Senior уровень, владение техническим бэкграундом для технической оценки необходимых ресурсов по задачам. Опыт работы с Python фреймворками (Django, Flask, Aiohttp...",
+    "city": 1,
+    "language": 1,
+    "timestamp": "2020-11-10"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 34,
+  "fields": {
+    "url": "https://rabota.by/vacancy/40273375?query=Python",
+    "title": "Тестировщик ПО (QA Engineer)",
+    "company": "ИП Сыродоева Юлия Сергеевна",
+    "description": "Функциональное и нефункциональное мануальное тестирование. Регрессионное тестирование. Кроссбраузерное тестирование. Поиск дефектов, создание баг-репортов. Написание тест-кейсов.Ответсвенность, соблюдение дедлайнов. Умение работать самостоятельно. ПЛЮСАМИ БУДУТ: Опыт работы в ADO, Jira. Опыт тестирования API. Знание Python.",
+    "city": 1,
+    "language": 1,
+    "timestamp": "2020-11-10"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 35,
+  "fields": {
+    "url": "https://rabota.by/vacancy/40224118?query=Python",
+    "title": "Python разработчик",
+    "company": "ООО Умный код",
+    "description": "Разработкой корпоративных и бизнес-приложений, разработкой web. Разработкой интеграций с различными внешними системами. Участвовать в полном цикле разработки: программирование, тестирование...Python (Odoo Framework Backend/Django/Flask). PostgreSQL (желательно со знанием непосредственно SQL). HTML/XML/CSS. GIT. JS/JQuery. Python. Django. ",
+    "city": 1,
+    "language": 1,
+    "timestamp": "2020-11-10"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 36,
+  "fields": {
+    "url": "https://rabota.by/vacancy/40218499?query=Python",
+    "title": "Python senior developer",
+    "company": "ООО ЭлектроСмайл",
+    "description": "Develop new functionality and maintain existing company's services. - Integrate with external and internal services. - Reviews to junior team members. - ...solid knowledge of web development in Python. - Understanding of design patterns. - Experience with modern python frameworks. - Solid knowledge of MySQL...",
+    "city": 1,
+    "language": 1,
+    "timestamp": "2020-11-10"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 37,
+  "fields": {
+    "url": "https://rabota.by/vacancy/40260264?query=Python",
+    "title": "Senior C++/Python developer",
+    "company": " Logic Way",
+    "description": "Design, build, and maintain efficient, reusable, and reliable C++ and Python code. Implement performant and quality modules. Identify bottlenecks and...Strong proficiency in C++ and Python, with fair knowledge of the language specification. Thorough knowledge of the standard library, STL...",
+    "city": 1,
+    "language": 1,
+    "timestamp": "2020-11-10"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 38,
+  "fields": {
+    "url": "https://rabota.by/vacancy/40104084?query=Python",
+    "title": "Старший разработчик Python",
+    "company": " СтройТеремГрупп",
+    "description": "Работа в команде разработчиков финансовых инструментов, создание высоконагруженных и отказоустойчивых систем. Создание внутренних продуктов с использованием современных технологий. Квалификационный тур. Опыт и предыстория. Минимум 3 года использования Python: хорошее знание Python 3+, соответствие pep8, знание asyncio. ",
+    "city": 1,
+    "language": 1,
+    "timestamp": "2020-11-10"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 39,
+  "fields": {
+    "url": "https://rabota.by/vacancy/40012716?query=Python",
+    "title": "Python Developer",
+    "company": "ООО ЧейнАртСофт",
+    "description": "Stack of technologies used on the project: Competitive salary.Strong knowledge of Python programming language. Experience in working with Django or other Python-based frameworks. Understanding REST APIs. ",
+    "city": 1,
+    "language": 1,
+    "timestamp": "2020-11-10"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 40,
+  "fields": {
+    "url": "https://rabota.by/vacancy/39815362?query=Python",
+    "title": "Разработчик Python",
+    "company": "ООО Арктический 12",
+    "description": "Разработка и интеграция новых приложений с функциями распознавания лиц.Опыт разработки на Python от 3-х лет.",
+    "city": 1,
+    "language": 1,
+    "timestamp": "2020-11-10"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 41,
+  "fields": {
+    "url": "https://rabota.by/vacancy/39893428?query=Python",
+    "title": "Middle+ Python Developer",
+    "company": "ООО Ара Софт Групп",
+    "description": "Docker. Agile development. Possibility to attend conferences and external trainings. Corporate events.2+ years experience with Python. Experience with Django/Flask Framework . Solid understanding of Git. Knowledge of English at the...",
+    "city": 1,
+    "language": 1,
+    "timestamp": "2020-11-10"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 42,
+  "fields": {
+    "url": "https://belmeta.com/redir?id=8075443",
+    "title": "DevOps Engineer",
+    "company": "OpsWorks Co.",
+    "description": "\r\n    internal perimeter with OpenVPN; Experience with High Available and High Load systems; Python ... OpsWorks Co. is a Ukraine-based IT engineering company. We specifically focus on providing ...\r\n  ",
+    "city": 1,
+    "language": 1,
+    "timestamp": "2020-11-10"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 43,
+  "fields": {
+    "url": "https://belmeta.com/redir?id=8153459",
+    "title": "Инженер группы планирования магистральной сети",
+    "company": "A1 (Унитарное предприятие \"А1\") Удалённо",
+    "description": 
