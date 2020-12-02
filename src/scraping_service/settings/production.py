@@ -1,6 +1,6 @@
 import os
 import dj_database_url
-from pathlib import Path
+
 
 EMAIL_HOST_USER = os.getenv("EMAIL_HOST_USER")
 EMAIL_HOST_PASSWORD = os.getenv("EMAIL_HOST_PASSWORD")
@@ -13,7 +13,7 @@ DB_USER = os.environ.get('DB_USER')
 SECRET_KEY = os.environ.get("SECRET_KEY")
 
 # BASE_DIR = Path(__file__).resolve().parent.parent.parent
-BASE_DIR = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = SECRET_KEY
 DEBUG = False
 
