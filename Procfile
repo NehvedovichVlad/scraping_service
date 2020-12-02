@@ -1,1 +1,1 @@
-web: gunicorn scraping_service.wsgi
+web: (cd src && gunicorn --workers 2 scraping_service.wsgi --bind 0.0.0.0:$PORT )
