@@ -17,7 +17,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__fil
 SECRET_KEY = SECRET_KEY
 DEBUG = False
 
-ALLOWED_HOSTS = ["scrap-service.herokuapp.com"]
+ALLOWED_HOSTS = ["serv-scraps.herokuapp.com"]
 
 INSTALLED_APPS = [
     'django.contrib.admin',
