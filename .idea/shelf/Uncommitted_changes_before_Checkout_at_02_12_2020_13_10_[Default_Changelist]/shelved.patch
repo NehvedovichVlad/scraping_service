@@ -1,0 +1,934 @@
+Index: src/mydata.json
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>[\r\n{\r\n  \"model\": \"admin.logentry\",\r\n  \"pk\": 1,\r\n  \"fields\": {\r\n    \"action_time\": \"2020-11-10T18:11:20.483Z\",\r\n    \"user\": 1,\r\n    \"content_type\": 6,\r\n    \"object_id\": \"1\",\r\n    \"object_repr\": \"�����\",\r\n    \"action_flag\": 2,\r\n    \"change_message\": \"[{\\\"changed\\\": {\\\"fields\\\": [\\\"Slug\\\"]}}]\"\r\n  }\r\n},\r\n{\r\n  \"model\": \"admin.logentry\",\r\n  \"pk\": 2,\r\n  \"fields\": {\r\n    \"action_time\": \"2020-11-10T18:11:28.734Z\",\r\n    \"user\": 1,\r\n    \"content_type\": 7,\r\n    \"object_id\": \"1\",\r\n    \"object_repr\": \"Python\",\r\n    \"action_flag\": 2,\r\n    \"change_message\": \"[]\"\r\n  }\r\n},\r\n{\r\n  \"model\": \"admin.logentry\",\r\n  \"pk\": 3,\r\n  \"fields\": {\r\n    \"action_time\": \"2020-11-11T11:07:12.655Z\",\r\n    \"user\": 1,\r\n    \"content_type\": 11,\r\n    \"object_id\": \"1\",\r\n    \"object_repr\": \"Url object (1)\",\r\n    \"action_flag\": 1,\r\n    \"change_message\": \"[{\\\"added\\\": {}}]\"\r\n  }\r\n},\r\n{\r\n  \"model\": \"admin.logentry\",\r\n  \"pk\": 4,\r\n  \"fields\": {\r\n    \"action_time\": \"2020-11-11T14:43:33.000Z\",\r\n    \"user\": 1,\r\n    \"content_type\": 9,\r\n    \"object_id\": \"1\",\r\n    \"object_repr\": \"nehvya@mail.ru\",\r\n    \"action_flag\": 2,\r\n    \"change_message\": \"[{\\\"changed\\\": {\\\"fields\\\": [\\\"Language\\\", \\\"City\\\"]}}]\"\r\n  }\r\n},\r\n{\r\n  \"model\": \"admin.logentry\",\r\n  \"pk\": 5,\r\n  \"fields\": {\r\n    \"action_time\": \"2020-11-17T12:51:52.321Z\",\r\n    \"user\": 2,\r\n    \"content_type\": 9,\r\n    \"object_id\": \"2\",\r\n    \"object_repr\": \"v@mail.ru\",\r\n    \"action_flag\": 2,\r\n    \"change_message\": \"[{\\\"changed\\\": {\\\"fields\\\": [\\\"Language\\\", \\\"City\\\"]}}]\"\r\n  }\r\n},\r\n{\r\n  \"model\": \"admin.logentry\",\r\n  \"pk\": 6,\r\n  \"fields\": {\r\n    \"action_time\": \"2020-11-20T16:01:35.108Z\",\r\n    \"user\": 2,\r\n    \"content_type\": 9,\r\n    \"object_id\": \"8\",\r\n    \"object_repr\": \"aa@mail.ru\",\r\n    \"action_flag\": 3,\r\n    \"change_message\": \"\"\r\n  }\r\n},\r\n{\r\n  \"model\": \"admin.logentry\",\r\n  \"pk\": 7,\r\n  \"fields\": {\r\n    \"action_time\": \"2020-11-20T16:01:35.214Z\",\r\n    \"user\": 2,\r\n    \"content_type\": 9,\r\n    \"object_id\": \"16\",\r\n    \"object_repr\": \"asd@mail.ru\",\r\n    \"action_flag\": 3,\r\n    \"change_message\": \"\"\r\n  }\r\n},\r\n{\r\n  \"model\": \"admin.logentry\",\r\n  \"pk\": 8,\r\n  \"fields\": {\r\n    \"action_time\": \"2020-11-20T16:01:35.321Z\",\r\n    \"user\": 2,\r\n    \"content_type\": 9,\r\n    \"object_id\": \"15\",\r\n    \"object_repr\": \"asdas@mail.ru\",\r\n    \"action_flag\": 3,\r\n    \"change_message\": \"\"\r\n  }\r\n},\r\n{\r\n  \"model\": \"admin.logentry\",\r\n  \"pk\": 9,\r\n  \"fields\": {\r\n    \"action_time\": \"2020-11-20T16:01:35.405Z\",\r\n    \"user\": 2,\r\n    \"content_type\": 9,\r\n    \"object_id\": \"14\",\r\n    \"object_repr\": \"asdss@mail.ru\",\r\n    \"action_flag\": 3,\r\n    \"change_message\": \"\"\r\n  }\r\n},\r\n{\r\n  \"model\": \"admin.logentry\",\r\n  \"pk\": 10,\r\n  \"fields\": {\r\n    \"action_time\": \"2020-11-20T16:01:35.512Z\",\r\n    \"user\": 2,\r\n    \"content_type\": 9,\r\n    \"object_id\": \"9\",\r\n    \"object_repr\": \"axa@mail.ru\",\r\n    \"action_flag\": 3,\r\n    \"change_message\": \"\"\r\n  }\r\n},\r\n{\r\n  \"model\": \"admin.logentry\",\r\n  \"pk\": 11,\r\n  \"fields\": {\r\n    \"action_time\": \"2020-11-20T16:01:35.609Z\",\r\n    \"user\": 2,\r\n    \"content_type\": 9,\r\n    \"object_id\": \"22\",\r\n    \"object_repr\": \"c@mail.ru\",\r\n    \"action_flag\": 3,\r\n    \"change_message\": \"\"\r\n  }\r\n},\r\n{\r\n  \"model\": \"admin.logentry\",\r\n  \"pk\": 12,\r\n  \"fields\": {\r\n    \"action_time\": \"2020-11-20T16:01:35.788Z\",\r\n    \"user\": 2,\r\n    \"content_type\": 9,\r\n    \"object_id\": \"10\",\r\n    \"object_repr\": \"ff@mail.ru\",\r\n    \"action_flag\": 3,\r\n    \"change_message\": \"\"\r\n  }\r\n},\r\n{\r\n  \"model\": \"admin.logentry\",\r\n  \"pk\": 13,\r\n  \"fields\": {\r\n    \"action_time\": \"2020-11-20T16:01:35.873Z\",\r\n    \"user\": 2,\r\n    \"content_type\": 9,\r\n    \"object_id\": \"11\",\r\n    \"object_repr\": \"p@mail.ru\",\r\n    \"action_flag\": 3,\r\n    \"change_message\": \"\"\r\n  }\r\n},\r\n{\r\n  \"model\": \"admin.logentry\",\r\n  \"pk\": 14,\r\n  \"fields\": {\r\n    \"action_time\": \"2020-11-20T16:01:35.959Z\",\r\n    \"user\": 2,\r\n    \"content_type\": 9,\r\n    \"object_id\": \"12\",\r\n    \"object_repr\": \"plp@mail.ru\",\r\n    \"action_flag\": 3,\r\n    \"change_message\": \"\"\r\n  }\r\n},\r\n{\r\n  \"model\": \"admin.logentry\",\r\n  \"pk\": 15,\r\n  \"fields\": {\r\n    \"action_time\": \"2020-11-20T16:01:36.044Z\",\r\n    \"user\": 2,\r\n    \"content_type\": 9,\r\n    \"object_id\": \"3\",\r\n    \"object_repr\": \"s@mail.ru\",\r\n    \"action_flag\": 3,\r\n    \"change_message\": \"\"\r\n  }\r\n},\r\n{\r\n  \"model\": \"admin.logentry\",\r\n  \"pk\": 16,\r\n  \"fields\": {\r\n    \"action_time\": \"2020-11-20T16:01:36.131Z\",\r\n    \"user\": 2,\r\n    \"content_type\": 9,\r\n    \"object_id\": \"4\",\r\n    \"object_repr\": \"ss@mail.ru\",\r\n    \"action_flag\": 3,\r\n    \"change_message\": \"\"\r\n  }\r\n},\r\n{\r\n  \"model\": \"admin.logentry\",\r\n  \"pk\": 17,\r\n  \"fields\": {\r\n    \"action_time\": \"2020-11-20T16:01:36.213Z\",\r\n    \"user\": 2,\r\n    \"content_type\": 9,\r\n    \"object_id\": \"5\",\r\n    \"object_repr\": \"ssd@mail.ru\",\r\n    \"action_flag\": 3,\r\n    \"change_message\": \"\"\r\n  }\r\n},\r\n{\r\n  \"model\": \"admin.logentry\",\r\n  \"pk\": 18,\r\n  \"fields\": {\r\n    \"action_time\": \"2020-11-20T16:01:36.299Z\",\r\n    \"user\": 2,\r\n    \"content_type\": 9,\r\n    \"object_id\": \"17\",\r\n    \"object_repr\": \"va@mail.ru\",\r\n    \"action_flag\": 3,\r\n    \"change_message\": \"\"\r\n  }\r\n},\r\n{\r\n  \"model\": \"admin.logentry\",\r\n  \"pk\": 19,\r\n  \"fields\": {\r\n    \"action_time\": \"2020-11-20T16:01:36.384Z\",\r\n    \"user\": 2,\r\n    \"content_type\": 9,\r\n    \"object_id\": \"6\",\r\n    \"object_repr\": \"vd@mail.ru\",\r\n    \"action_flag\": 3,\r\n    \"change_message\": \"\"\r\n  }\r\n},\r\n{\r\n  \"model\": \"admin.logentry\",\r\n  \"pk\": 20,\r\n  \"fields\": {\r\n    \"action_time\": \"2020-11-20T16:01:36.470Z\",\r\n    \"user\": 2,\r\n    \"content_type\": 9,\r\n    \"object_id\": \"7\",\r\n    \"object_repr\": \"vdd@mail.ru\",\r\n    \"action_flag\": 3,\r\n    \"change_message\": \"\"\r\n  }\r\n},\r\n{\r\n  \"model\": \"admin.logentry\",\r\n  \"pk\": 21,\r\n  \"fields\": {\r\n    \"action_time\": \"2020-11-20T16:01:36.564Z\",\r\n    \"user\": 2,\r\n    \"content_type\": 9,\r\n    \"object_id\": \"18\",\r\n    \"object_repr\": \"vsa@mail.ru\",\r\n    \"action_flag\": 3,\r\n    \"change_message\": \"\"\r\n  }\r\n},\r\n{\r\n  \"model\": \"admin.logentry\",\r\n  \"pk\": 22,\r\n  \"fields\": {\r\n    \"action_time\": \"2020-11-20T16:01:36.672Z\",\r\n    \"user\": 2,\r\n    \"content_type\": 9,\r\n    \"object_id\": \"19\",\r\n    \"object_repr\": \"vssa@mail.ru\",\r\n    \"action_flag\": 3,\r\n    \"change_message\": \"\"\r\n  }\r\n},\r\n{\r\n  \"model\": \"admin.logentry\",\r\n  \"pk\": 23,\r\n  \"fields\": {\r\n    \"action_time\": \"2020-11-20T16:01:36.757Z\",\r\n    \"user\": 2,\r\n    \"content_type\": 9,\r\n    \"object_id\": \"20\",\r\n    \"object_repr\": \"vssaa@mail.ru\",\r\n    \"action_flag\": 3,\r\n    \"change_message\": \"\"\r\n  }\r\n},\r\n{\r\n  \"model\": \"admin.logentry\",\r\n  \"pk\": 24,\r\n  \"fields\": {\r\n    \"action_time\": \"2020-11-20T16:17:05.407Z\",\r\n    \"user\": 2,\r\n    \"content_type\": 9,\r\n    \"object_id\": \"2\",\r\n    \"object_repr\": \"v@mail.ru\",\r\n    \"action_flag\": 2,\r\n    \"change_message\": \"[{\\\"changed\\\": {\\\"fields\\\": [\\\"Language\\\", \\\"City\\\"]}}]\"\r\n  }\r\n},\r\n{\r\n  \"model\": \"admin.logentry\",\r\n  \"pk\": 25,\r\n  \"fields\": {\r\n    \"action_time\": \"2020-11-20T16:44:53.375Z\",\r\n    \"user\": 2,\r\n    \"content_type\": 9,\r\n    \"object_id\": \"1\",\r\n    \"object_repr\": \"vladislavnehvedovich@gmail.com\",\r\n    \"action_flag\": 2,\r\n    \"change_message\": \"[{\\\"changed\\\": {\\\"fields\\\": [\\\"Email address\\\"]}}]\"\r\n  }\r\n},\r\n{\r\n  \"model\": \"admin.logentry\",\r\n  \"pk\": 26,\r\n  \"fields\": {\r\n    \"action_time\": \"2020-11-20T17:09:10.091Z\",\r\n    \"user\": 2,\r\n    \"content_type\": 9,\r\n    \"object_id\": \"2\",\r\n    \"object_repr\": \"v@mail.ru\",\r\n    \"action_flag\": 2,\r\n    \"change_message\": \"[{\\\"changed\\\": {\\\"fields\\\": [\\\"Send email\\\"]}}]\"\r\n  }\r\n},\r\n{\r\n  \"model\": \"admin.logentry\",\r\n  \"pk\": 27,\r\n  \"fields\": {\r\n    \"action_time\": \"2020-11-20T20:01:10.457Z\",\r\n    \"user\": 2,\r\n    \"content_type\": 9,\r\n    \"object_id\": \"1\",\r\n    \"object_repr\": \"vladislavnehvedovich@gmail.com\",\r\n    \"action_flag\": 2,\r\n    \"change_message\": \"[{\\\"changed\\\": {\\\"fields\\\": [\\\"Is admin\\\"]}}]\"\r\n  }\r\n},\r\n{\r\n  \"model\": \"admin.logentry\",\r\n  \"pk\": 28,\r\n  \"fields\": {\r\n    \"action_time\": \"2020-11-27T12:16:37.703Z\",\r\n    \"user\": 2,\r\n    \"content_type\": 10,\r\n    \"object_id\": \"1\",\r\n    \"object_repr\": \"2020-11-27\",\r\n    \"action_flag\": 1,\r\n    \"change_message\": \"[{\\\"added\\\": {}}]\"\r\n  }\r\n},\r\n{\r\n  \"model\": \"admin.logentry\",\r\n  \"pk\": 29,\r\n  \"fields\": {\r\n    \"action_time\": \"2020-11-27T12:23:47.042Z\",\r\n    \"user\": 2,\r\n    \"content_type\": 10,\r\n    \"object_id\": \"1\",\r\n    \"object_repr\": \"2020-11-27\",\r\n    \"action_flag\": 2,\r\n    \"change_message\": \"[{\\\"changed\\\": {\\\"fields\\\": [\\\"Data\\\"]}}]\"\r\n  }\r\n},\r\n{\r\n  \"model\": \"admin.logentry\",\r\n  \"pk\": 30,\r\n  \"fields\": {\r\n    \"action_time\": \"2020-11-27T12:24:13.009Z\",\r\n    \"user\": 2,\r\n    \"content_type\": 10,\r\n    \"object_id\": \"1\",\r\n    \"object_repr\": \"2020-11-27\",\r\n    \"action_flag\": 2,\r\n    \"change_message\": \"[{\\\"changed\\\": {\\\"fields\\\": [\\\"Data\\\"]}}]\"\r\n  }\r\n},\r\n{\r\n  \"model\": \"admin.logentry\",\r\n  \"pk\": 31,\r\n  \"fields\": {\r\n    \"action_time\": \"2020-11-27T14:01:25.618Z\",\r\n    \"user\": 2,\r\n    \"content_type\": 10,\r\n    \"object_id\": \"1\",\r\n    \"object_repr\": \"2020-11-27\",\r\n    \"action_flag\": 2,\r\n    \"change_message\": \"[{\\\"changed\\\": {\\\"fields\\\": [\\\"Data\\\"]}}]\"\r\n  }\r\n},\r\n{\r\n  \"model\": \"auth.permission\",\r\n  \"pk\": 1,\r\n  \"fields\": {\r\n    \"name\": \"Can add log entry\",\r\n    \"content_type\": 1,\r\n    \"codename\": \"add_logentry\"\r\n  }\r\n},\r\n{\r\n  \"model\": \"auth.permission\",\r\n  \"pk\": 2,\r\n  \"fields\": {\r\n    \"name\": \"Can change log entry\",\r\n    \"content_type\": 1,\r\n    \"codename\": \"change_logentry\"\r\n  }\r\n},\r\n{\r\n  \"model\": \"auth.permission\",\r\n  \"pk\": 3,\r\n  \"fields\": {\r\n    \"name\": \"Can delete log entry\",\r\n    \"content_type\": 1,\r\n    \"codename\": \"delete_logentry\"\r\n  }\r\n},\r\n{\r\n  \"model\": \"auth.permission\",\r\n  \"pk\": 4,\r\n  \"fields\": {\r\n    \"name\": \"Can view log entry\",\r\n    \"content_type\": 1,\r\n    \"codename\": \"view_logentry\"\r\n  }\r\n},\r\n{\r\n  \"model\": \"auth.permission\",\r\n  \"pk\": 5,\r\n  \"fields\": {\r\n    \"name\": \"Can add permission\",\r\n    \"content_type\": 2,\r\n    \"codename\": \"add_permission\"\r\n  }\r\n},\r\n{\r\n  \"model\": \"auth.permission\",\r\n  \"pk\": 6,\r\n  \"fields\": {\r\n    \"name\": \"Can change permission\",\r\n    \"content_type\": 2,\r\n    \"codename\": \"change_permission\"\r\n  }\r\n},\r\n{\r\n  \"model\": \"auth.permission\",\r\n  \"pk\": 7,\r\n  \"fields\": {\r\n    \"name\": \"Can delete permission\",\r\n    \"content_type\": 2,\r\n    \"codename\": \"delete_permission\"\r\n  }\r\n},\r\n{\r\n  \"model\": \"auth.permission\",\r\n  \"pk\": 8,\r\n  \"fields\": {\r\n    \"name\": \"Can view permission\",\r\n    \"content_type\": 2,\r\n    \"codename\": \"view_permission\"\r\n  }\r\n},\r\n{\r\n  \"model\": \"auth.permission\",\r\n  \"pk\": 9,\r\n  \"fields\": {\r\n    \"name\": \"Can add group\",\r\n    \"content_type\": 3,\r\n    \"codename\": \"add_group\"\r\n  }\r\n},\r\n{\r\n  \"model\": \"auth.permission\",\r\n  \"pk\": 10,\r\n  \"fields\": {\r\n    \"name\": \"Can change group\",\r\n    \"content_type\": 3,\r\n    \"codename\": \"change_group\"\r\n  }\r\n},\r\n{\r\n  \"model\": \"auth.permission\",\r\n  \"pk\": 11,\r\n  \"fields\": {\r\n    \"name\": \"Can delete group\",\r\n    \"content_type\": 3,\r\n    \"codename\": \"delete_group\"\r\n  }\r\n},\r\n{\r\n  \"model\": \"auth.permission\",\r\n  \"pk\": 12,\r\n  \"fields\": {\r\n    \"name\": \"Can view group\",\r\n    \"content_type\": 3,\r\n    \"codename\": \"view_group\"\r\n  }\r\n},\r\n{\r\n  \"model\": \"auth.permission\",\r\n  \"pk\": 13,\r\n  \"fields\": {\r\n    \"name\": \"Can add content type\",\r\n    \"content_type\": 4,\r\n    \"codename\": \"add_contenttype\"\r\n  }\r\n},\r\n{\r\n  \"model\": \"auth.permission\",\r\n  \"pk\": 14,\r\n  \"fields\": {\r\n    \"name\": \"Can change content type\",\r\n    \"content_type\": 4,\r\n    \"codename\": \"change_contenttype\"\r\n  }\r\n},\r\n{\r\n  \"model\": \"auth.permission\",\r\n  \"pk\": 15,\r\n  \"fields\": {\r\n    \"name\": \"Can delete content type\",\r\n    \"content_type\": 4,\r\n    \"codename\": \"delete_contenttype\"\r\n  }\r\n},\r\n{\r\n  \"model\": \"auth.permission\",\r\n  \"pk\": 16,\r\n  \"fields\": {\r\n    \"name\": \"Can view content type\",\r\n    \"content_type\": 4,\r\n    \"codename\": \"view_contenttype\"\r\n  }\r\n},\r\n{\r\n  \"model\": \"auth.permission\",\r\n  \"pk\": 17,\r\n  \"fields\": {\r\n    \"name\": \"Can add session\",\r\n    \"content_type\": 5,\r\n    \"codename\": \"add_session\"\r\n  }\r\n},\r\n{\r\n  \"model\": \"auth.permission\",\r\n  \"pk\": 18,\r\n  \"fields\": {\r\n    \"name\": \"Can change session\",\r\n    \"content_type\": 5,\r\n    \"codename\": \"change_session\"\r\n  }\r\n},\r\n{\r\n  \"model\": \"auth.permission\",\r\n  \"pk\": 19,\r\n  \"fields\": {\r\n    \"name\": \"Can delete session\",\r\n    \"content_type\": 5,\r\n    \"codename\": \"delete_session\"\r\n  }\r\n},\r\n{\r\n  \"model\": \"auth.permission\",\r\n  \"pk\": 20,\r\n  \"fields\": {\r\n    \"name\": \"Can view session\",\r\n    \"content_type\": 5,\r\n    \"codename\": \"view_session\"\r\n  }\r\n},\r\n{\r\n  \"model\": \"auth.permission\",\r\n  \"pk\": 21,\r\n  \"fields\": {\r\n    \"name\": \"Can add �����\",\r\n    \"content_type\": 6,\r\n    \"codename\": \"add_city\"\r\n  }\r\n},\r\n{\r\n  \"model\": \"auth.permission\",\r\n  \"pk\": 22,\r\n  \"fields\": {\r\n    \"name\": \"Can change �����\",\r\n    \"content_type\": 6,\r\n    \"codename\": \"change_city\"\r\n  }\r\n},\r\n{\r\n  \"model\": \"auth.permission\",\r\n  \"pk\": 23,\r\n  \"fields\": {\r\n    \"name\": \"Can delete �����\",\r\n    \"content_type\": 6,\r\n    \"codename\": \"delete_city\"\r\n  }\r\n},\r\n{\r\n  \"model\": \"auth.permission\",\r\n  \"pk\": 24,\r\n  \"fields\": {\r\n    \"name\": \"Can view �����\",\r\n    \"content_type\": 6,\r\n    \"codename\": \"view_city\"\r\n  }\r\n},\r\n{\r\n  \"model\": \"auth.permission\",\r\n  \"pk\": 25,\r\n  \"fields\": {\r\n    \"name\": \"Can add ���� ����������������\",\r\n    \"content_type\": 7,\r\n    \"codename\": \"add_language\"\r\n  }\r\n},\r\n{\r\n  \"model\": \"auth.permission\",\r\n  \"pk\": 26,\r\n  \"fields\": {\r\n    \"name\": \"Can change ���� ����������������\",\r\n    \"content_type\": 7,\r\n    \"codename\": \"change_language\"\r\n  }\r\n},\r\n{\r\n  \"model\": \"auth.permission\",\r\n  \"pk\": 27,\r\n  \"fields\": {\r\n    \"name\": \"Can delete ���� ����������������\",\r\n    \"content_type\": 7,\r\n    \"codename\": \"delete_language\"\r\n  }\r\n},\r\n{\r\n  \"model\": \"auth.permission\",\r\n  \"pk\": 28,\r\n  \"fields\": {\r\n    \"name\": \"Can view ���� ����������������\",\r\n    \"content_type\": 7,\r\n    \"codename\": \"view_language\"\r\n  }\r\n},\r\n{\r\n  \"model\": \"auth.permission\",\r\n  \"pk\": 29,\r\n  \"fields\": {\r\n    \"name\": \"Can add ��������\",\r\n    \"content_type\": 8,\r\n    \"codename\": \"add_vacancy\"\r\n  }\r\n},\r\n{\r\n  \"model\": \"auth.permission\",\r\n  \"pk\": 30,\r\n  \"fields\": {\r\n    \"name\": \"Can change ��������\",\r\n    \"content_type\": 8,\r\n    \"codename\": \"change_vacancy\"\r\n  }\r\n},\r\n{\r\n  \"model\": \"auth.permission\",\r\n  \"pk\": 31,\r\n  \"fields\": {\r\n    \"name\": \"Can delete ��������\",\r\n    \"content_type\": 8,\r\n    \"codename\": \"delete_vacancy\"\r\n  }\r\n},\r\n{\r\n  \"model\": \"auth.permission\",\r\n  \"pk\": 32,\r\n  \"fields\": {\r\n    \"name\": \"Can view ��������\",\r\n    \"content_type\": 8,\r\n    \"codename\": \"view_vacancy\"\r\n  }\r\n},\r\n{\r\n  \"model\": \"auth.permission\",\r\n  \"pk\": 33,\r\n  \"fields\": {\r\n    \"name\": \"Can add my user\",\r\n    \"content_type\": 9,\r\n    \"codename\": \"add_myuser\"\r\n  }\r\n},\r\n{\r\n  \"model\": \"auth.permission\",\r\n  \"pk\": 34,\r\n  \"fields\": {\r\n    \"name\": \"Can change my user\",\r\n    \"content_type\": 9,\r\n    \"codename\": \"change_myuser\"\r\n  }\r\n},\r\n{\r\n  \"model\": \"auth.permission\",\r\n  \"pk\": 35,\r\n  \"fields\": {\r\n    \"name\": \"Can delete my user\",\r\n    \"content_type\": 9,\r\n    \"codename\": \"delete_myuser\"\r\n  }\r\n},\r\n{\r\n  \"model\": \"auth.permission\",\r\n  \"pk\": 36,\r\n  \"fields\": {\r\n    \"name\": \"Can view my user\",\r\n    \"content_type\": 9,\r\n    \"codename\": \"view_myuser\"\r\n  }\r\n},\r\n{\r\n  \"model\": \"auth.permission\",\r\n  \"pk\": 37,\r\n  \"fields\": {\r\n    \"name\": \"Can add error\",\r\n    \"content_type\": 10,\r\n    \"codename\": \"add_error\"\r\n  }\r\n},\r\n{\r\n  \"model\": \"auth.permission\",\r\n  \"pk\": 38,\r\n  \"fields\": {\r\n    \"name\": \"Can change error\",\r\n    \"content_type\": 10,\r\n    \"codename\": \"change_error\"\r\n  }\r\n},\r\n{\r\n  \"model\": \"auth.permission\",\r\n  \"pk\": 39,\r\n  \"fields\": {\r\n    \"name\": \"Can delete error\",\r\n    \"content_type\": 10,\r\n    \"codename\": \"delete_error\"\r\n  }\r\n},\r\n{\r\n  \"model\": \"auth.permission\",\r\n  \"pk\": 40,\r\n  \"fields\": {\r\n    \"name\": \"Can view error\",\r\n    \"content_type\": 10,\r\n    \"codename\": \"view_error\"\r\n  }\r\n},\r\n{\r\n  \"model\": \"auth.permission\",\r\n  \"pk\": 41,\r\n  \"fields\": {\r\n    \"name\": \"Can add url\",\r\n    \"content_type\": 11,\r\n    \"codename\": \"add_url\"\r\n  }\r\n},\r\n{\r\n  \"model\": \"auth.permission\",\r\n  \"pk\": 42,\r\n  \"fields\": {\r\n    \"name\": \"Can change url\",\r\n    \"content_type\": 11,\r\n    \"codename\": \"change_url\"\r\n  }\r\n},\r\n{\r\n  \"model\": \"auth.permission\",\r\n  \"pk\": 43,\r\n  \"fields\": {\r\n    \"name\": \"Can delete url\",\r\n    \"content_type\": 11,\r\n    \"codename\": \"delete_url\"\r\n  }\r\n},\r\n{\r\n  \"model\": \"auth.permission\",\r\n  \"pk\": 44,\r\n  \"fields\": {\r\n    \"name\": \"Can view url\",\r\n    \"content_type\": 11,\r\n    \"codename\": \"view_url\"\r\n  }\r\n},\r\n{\r\n  \"model\": \"contenttypes.contenttype\",\r\n  \"pk\": 1,\r\n  \"fields\": {\r\n    \"app_label\": \"admin\",\r\n    \"model\": \"logentry\"\r\n  }\r\n},\r\n{\r\n  \"model\": \"contenttypes.contenttype\",\r\n  \"pk\": 2,\r\n  \"fields\": {\r\n    \"app_label\": \"auth\",\r\n    \"model\": \"permission\"\r\n  }\r\n},\r\n{\r\n  \"model\": \"contenttypes.contenttype\",\r\n  \"pk\": 3,\r\n  \"fields\": {\r\n    \"app_label\": \"auth\",\r\n    \"model\": \"group\"\r\n  }\r\n},\r\n{\r\n  \"model\": \"contenttypes.contenttype\",\r\n  \"pk\": 4,\r\n  \"fields\": {\r\n    \"app_label\": \"contenttypes\",\r\n    \"model\": \"contenttype\"\r\n  }\r\n},\r\n{\r\n  \"model\": \"contenttypes.contenttype\",\r\n  \"pk\": 5,\r\n  \"fields\": {\r\n    \"app_label\": \"sessions\",\r\n    \"model\": \"session\"\r\n  }\r\n},\r\n{\r\n  \"model\": \"contenttypes.contenttype\",\r\n  \"pk\": 6,\r\n  \"fields\": {\r\n    \"app_label\": \"scraping\",\r\n    \"model\": \"city\"\r\n  }\r\n},\r\n{\r\n  \"model\": \"contenttypes.contenttype\",\r\n  \"pk\": 7,\r\n  \"fields\": {\r\n    \"app_label\": \"scraping\",\r\n    \"model\": \"language\"\r\n  }\r\n},\r\n{\r\n  \"model\": \"contenttypes.contenttype\",\r\n  \"pk\": 8,\r\n  \"fields\": {\r\n    \"app_label\": \"scraping\",\r\n    \"model\": \"vacancy\"\r\n  }\r\n},\r\n{\r\n  \"model\": \"contenttypes.contenttype\",\r\n  \"pk\": 9,\r\n  \"fields\": {\r\n    \"app_label\": \"accounts\",\r\n    \"model\": \"myuser\"\r\n  }\r\n},\r\n{\r\n  \"model\": \"contenttypes.contenttype\",\r\n  \"pk\": 10,\r\n  \"fields\": {\r\n    \"app_label\": \"scraping\",\r\n    \"model\": \"error\"\r\n  }\r\n},\r\n{\r\n  \"model\": \"contenttypes.contenttype\",\r\n  \"pk\": 11,\r\n  \"fields\": {\r\n    \"app_label\": \"scraping\",\r\n    \"model\": \"url\"\r\n  }\r\n},\r\n{\r\n  \"model\": \"sessions.session\",\r\n  \"pk\": \"4gqqsybesp2vh41jbiuv976muaihyjnl\",\r\n  \"fields\": {\r\n    \"session_data\": \".eJxVjDEOAiEQRe9CbYgOsjCW9p6BDDMgqwaSZbcy3t2QbKHtf-_9twq0rSVsPS1hFnVRoA6_WyR-pjqAPKjem-ZW12WOeih6p13fmqTXdXf_Dgr1MmrMxjF6cIh4njJnZ4EQTp7RJiAQtOQtHNEkSw6cn6JnC0CZjYhTny_NKzdz:1kjlIV:UM-F3SpqYYaHoHub2kFJNDOEjEeU6STKyfaSXwkx254\",\r\n    \"expire_date\": \"2020-12-14T15:41:03.968Z\"\r\n  }\r\n},\r\n{\r\n  \"model\": \"sessions.session\",\r\n  \"pk\": \"ao8zs9ehz9yc1pewifzy67k7lzd6lupx\",\r\n  \"fields\": {\r\n    \"session_data\": \".eJxVjEsOwjAMBe-SNYpSV04IS_acoXJimxRQIvWzqrg7VOoCtm9m3mYGWpcyrLNMw8jmYqA3p98xUX5K3Qk_qN6bza0u05jsrtiDzvbWWF7Xw_07KDSXb-2DQ-hZNLmoZyCInJXYCSIGFnHKjtW7SB1GBIEcuoAxag5BwSfz_gAb0Dh6:1kieUU:kKbqcNTuqLMVEbmGhpBgTzHp7fLGaiTEjGQtRpw2c34\",\r\n    \"expire_date\": \"2020-12-11T14:12:50.785Z\"\r\n  }\r\n},\r\n{\r\n  \"model\": \"sessions.session\",\r\n  \"pk\": \"oxqiwz63tahngirfd6ucv2nb3qq66j3a\",\r\n  \"fields\": {\r\n    \"session_data\": \".eJxVjEEOwiAQRe_C2hA6Tgu4dO8ZyDBMpWogKe3KeHdD0oVu_3vvv1Wgfcthb7KGJamLAnX63SLxU0oH6UHlXjXXsq1L1F3RB236VpO8rof7d5Cp5V4zWjeCGGGayAFbcAyjOUcgj2Z2fkCwHgQm4gjoIyMKOTMj8-BYfb7bRzfK:1kfRZB:lb9s7EeSdRDkG7lO5s2hvPfCgEAVIRmdr8_IQPfTOPM\",\r\n    \"expire_date\": \"2020-12-02T17:48:25.045Z\"\r\n  }\r\n},\r\n{\r\n  \"model\": \"sessions.session\",\r\n  \"pk\": \"zsbuue82kpcc8s8yr9j36h44w0x3m2cp\",\r\n  \"fields\": {\r\n    \"session_data\": \".eJxVjMsOwiAQRf-FtSHDG1y69xvIMIBUDU1KuzL-uzbpQrf3nHNfLOK2triNssQpszMT7PS7JaRH6TvId-y3mdPc12VKfFf4QQe_zrk8L4f7d9BwtG-tDJG21VcZgHJyggBK9goDgarGAshq0WUdwIEmg0b6Sl54CUoHLdj7A92uNwg:1kb7Ld:-4DoG9QYzSomUw7kVwAVXbBtJKBc3KxX2f06zeTBzUY\",\r\n    \"expire_date\": \"2020-11-20T19:24:33.932Z\"\r\n  }\r\n},\r\n{\r\n  \"model\": \"scraping.city\",\r\n  \"pk\": 1,\r\n  \"fields\": {\r\n    \"name\": \"�����\",\r\n    \"slug\": \"minsk\"\r\n  }\r\n},\r\n{\r\n  \"model\": \"scraping.city\",\r\n  \"pk\": 2,\r\n  \"fields\": {\r\n    \"name\": \"������\",\r\n    \"slug\": \"������\"\r\n  }\r\n},\r\n{\r\n  \"model\": \"scraping.language\",\r\n  \"pk\": 1,\r\n  \"fields\": {\r\n    \"name\": \"Python\",\r\n    \"slug\": \"python\"\r\n  }\r\n},\r\n{\r\n  \"model\": \"scraping.language\",\r\n  \"pk\": 2,\r\n  \"fields\": {\r\n    \"name\": \"Java\",\r\n    \"slug\": \"java\"\r\n  }\r\n},\r\n{\r\n  \"model\": \"scraping.vacancy\",\r\n  \"pk\": 1,\r\n  \"fields\": {\r\n    \"url\": \"https://rabota.by/vacancy/39449149\",\r\n    \"title\": \"Python Developer\",\r\n    \"company\": \"APPSULOVE\",\r\n    \"description\": \"���� ������ Python ������������� �� 2-� ���. ���� ������ � Postgres, Apache Kafka, Redis. ���� ������ � Python ������������..\",\r\n    \"city\": 1,\r\n    \"language\": 1,\r\n    \"timestamp\": \"2020-11-04\"\r\n  }\r\n},\r\n{\r\n  \"model\": \"scraping.vacancy\",\r\n  \"pk\": 2,\r\n  \"fields\": {\r\n    \"url\": \"https://rabota.by/vacancy/39892371\",\r\n    \"title\": \"Python Developer\",\r\n    \"company\": \"������\",\r\n    \"description\": \"���������� � ��������� ������� API. ������� � ���������� ����������� ��. ������������ �������� �������� ������. ��������� � �������������� �������� ��������� �������.\\r\\n�������� ������ Python. ��������� �������� ������ �������� SQL, � ��������� Postgresql. ������ ������� �������� ������ (������, ����� � �.�.).\",\r\n    \"city\": 1,\r\n    \"language\": 1,\r\n    \"timestamp\": \"2020-11-04\"\r\n  }\r\n},\r\n{\r\n  \"model\": \"scraping.vacancy\",\r\n  \"pk\": 3,\r\n  \"fields\": {\r\n    \"url\": \"https://hh.ru/vacancy/39902901?query=Python\",\r\n    \"title\": \"Python Django developer\",\r\n    \"company\": \" EXANTE\",\r\n    \"description\": \"������ �������� ���������� ���������� �������� ��������� - CRM � ������� �������� ������������.������������ ���� ���������� Django, Python 3. ���������� ������� � ������, ��� �������� �� �������� (� ������ � ������� ���������� ����������). \",\r\n    \"city\": 1,\r\n    \"language\": 1,\r\n    \"timestamp\": \"2020-11-10\"\r\n  }\r\n},\r\n{\r\n  \"model\": \"scraping.vacancy\",\r\n  \"pk\": 4,\r\n  \"fields\": {\r\n    \"url\": \"https://hh.ru/vacancy/40330757?query=Python\",\r\n    \"title\": \"Python developer\",\r\n    \"company\": \" B2Broker ������\",\r\n    \"description\": \"����� ���� ������������ ���������� �� Python �� 2 ���. ����� � ����� ������������: ���������, ����������, ������. ������� ������� �������� ������������...\",\r\n    \"city\": 1,\r\n    \"language\": 1,\r\n    \"timestamp\": \"2020-11-10\"\r\n  }\r\n},\r\n{\r\n  \"model\": \"scraping.vacancy\",\r\n  \"pk\": 5,\r\n  \"fields\": {\r\n    \"url\": \"https://rabota.by/vacancy/39753606?query=Python\",\r\n    \"title\": \"Python Developer\",\r\n    \"company\": \" �������� ������� ����������\",\r\n    \"description\": \"���������� ���������� ��� ������������� ������ ����������, ����������������� ������. � ������� ���������� ����������� ���������� (������� ��������������� � �������������� ����������������, �����������, ���������...���� ���������� ������� ��������, ������ � ����������� TCP/IP. ���� ������ � ������������ � �������������� ��. ������ T-SQL ��...\",\r\n    \"city\": 1,\r\n    \"language\": 1,\r\n    \"timestamp\": \"2020-11-10\"\r\n  }\r\n},\r\n{\r\n  \"model\": \"scraping.vacancy\",\r\n  \"pk\": 6,\r\n  \"fields\": {\r\n    \"url\": \"https://hh.ru/vacancy/40171153?query=Python\",\r\n    \"title\": \"Python developer\",\r\n    \"company\": \"��� ������ �������� ���\",\r\n    \"description\": \"���������� �������� � �� ���������� � �������� ������� ��������. �������� �����������, ����������������� � ������������ ����. ���������������� ������� � ���������� �����������...���������������� ���� ���������� �������� Python 3 �� 2-� ���. ���� ������ � ����� ����������� ���� (PostgreSQL). ������ ������� ����������...\",\r\n    \"city\": 1,\r\n    \"language\": 1,\r\n    \"timestamp\": \"2020-11-10\"\r\n  }\r\n},\r\n{\r\n  \"model\": \"scraping.vacancy\",\r\n  \"pk\": 7,\r\n  \"fields\": {\r\n    \"url\": \"https://hh.ru/vacancy/37706581?query=Python\",\r\n    \"title\": \"Full stack developer (Python / Django / Vue)\",\r\n    \"company\": \" EXANTE\",\r\n    \"description\": \"������ �������� ���������� ���������� �������� ��������� - CRM � ������� �������� ������������.������������ ���� ���������� Django, Python 2/3 � ������ ������ �� JS � �����������. ���������� ������� � ������, ��� ��������...\",\r\n    \"city\": 1,\r\n    \"language\": 1,\r\n    \"timestamp\": \"2020-11-10\"\r\n  }\r\n},\r\n{\r\n  \"model\": \"scraping.vacancy\",\r\n  \"pk\": 8,\r\n  \"fields\": {\r\n    \"url\": \"https://rabota.by/vacancy/39894822?query=Python\",\r\n    \"title\": \"Python developer\",\r\n    \"company\": \"��� �����\",\r\n    \"description\": \"Develop new business modules and functions. Ensure development methodologies and best practices are followed through all the phases of development...2+ years of experience. Strong knowledge of Python, JavaScript, HTTP. Good knowledge of Flask, FastAPI. Effective communication skills in...\",\r\n    \"city\": 1,\r\n    \"language\": 1,\r\n    \"timestamp\": \"2020-11-10\"\r\n  }\r\n},\r\n{\r\n  \"model\": \"scraping.vacancy\",\r\n  \"pk\": 9,\r\n  \"fields\": {\r\n    \"url\": \"https://rabota.by/vacancy/40268268?query=Python\",\r\n    \"title\": \"Senior Python Developer\",\r\n    \"company\": \"������. �. Admitad\",\r\n    \"description\": \"���������� ����� � �������� ������ ������������ �� ��������� ������ (������� ������). �� ��� ������� ���� � �������. - ���������� ���. - ������������� �� Python ������ 5�� ���. � ������� Python �����. ����� Django � Flask. ������� ������. - ������ ��� � ������������...\",\r\n    \"city\": 1,\r\n    \"language\": 1,\r\n    \"timestamp\": \"2020-11-10\"\r\n  }\r\n},\r\n{\r\n  \"model\": \"scraping.vacancy\",\r\n  \"pk\": 10,\r\n  \"fields\": {\r\n    \"url\": \"https://rabota.by/vacancy/36677020?query=Python\",\r\n    \"title\": \"Python (Back-end) Developer\",\r\n    \"company\": \" BP Mobile\",\r\n    \"description\": \"Web Scraping (Selenium, Beautiful Soup, Requests etc).Python (Django, Flask etc). JavaScript, NodeJS, HTML5, CSS3. ����� ���� ������ ����� 5 ���.\",\r\n    \"city\": 1,\r\n    \"language\": 1,\r\n    \"timestamp\": \"2020-11-10\"\r\n  }\r\n},\r\n{\r\n  \"model\": \"scraping.vacancy\",\r\n  \"pk\": 11,\r\n  \"fields\": {\r\n    \"url\": \"https://rabota.by/vacancy/40268262?query=Python\",\r\n    \"title\": \"Middle Python Developer\",\r\n    \"company\": \"������. �. Admitad\",\r\n    \"description\": \"��������� ������-������ �������. ������������� ����������� (>1.5k rps) ���-�������������� ������. ���������� ����������� � ������ ����������. ���� Web ���������� �� Python �� ���� ���. ���� ������ � ������������ �� Python (Django/Flask/Falcon). ���� ������ �...\",\r\n    \"city\": 1,\r\n    \"language\": 1,\r\n    \"timestamp\": \"2020-11-10\"\r\n  }\r\n},\r\n{\r\n  \"model\": \"scraping.vacancy\",\r\n  \"pk\": 12,\r\n  \"fields\": {\r\n    \"url\": \"https://rabota.by/vacancy/39864855?query=Python\",\r\n    \"title\": \"Python Engineer\",\r\n    \"company\": \"��� ����������� ���\",\r\n    \"description\": \"Brainstorm, design, and develop our products. Design and implement reusable, testable, and efficient back-end features using Restful APIs, Microservices. Experience working in an agile environment. Experience with Python and Django/Flask. Good understanding of Front-end frameworks such as...\",\r\n    \"city\": 1,\r\n    \"language\": 1,\r\n    \"timestamp\": \"2020-11-10\"\r\n  }\r\n},\r\n{\r\n  \"model\": \"scraping.vacancy\",\r\n  \"pk\": 13,\r\n  \"fields\": {\r\n    \"url\": \"https://hh.ru/vacancy/39959985?query=Python\",\r\n    \"title\": \"Python Developer (Data Science)\",\r\n    \"company\": \" Sphere Consulting\",\r\n    \"description\": \"...and business stakeholders to operationalize Python based models and deliver insights to the business. Architect Python platforms which are highly...Experience with Python (4+). Experience with testing and integration of Python solutions. Experience with NoSQL and RDBMS. \",\r\n    \"city\": 1,\r\n    \"language\": 1,\r\n    \"timestamp\": \"2020-11-10\"\r\n  }\r\n},\r\n{\r\n  \"model\": \"scraping.vacancy\",\r\n  \"pk\": 14,\r\n  \"fields\": {\r\n    \"url\": \"https://hh.ru/vacancy/40263353?query=Python\",\r\n    \"title\": \"Middle/Senior Python Developer (Django, DRF)\",\r\n    \"company\": \"��� ������\",\r\n    \"description\": \"�� ������� Madcat � ������ ���������� �������� �������� � ������� �������, � ����� � ���������� ��������� ����������, � ������ � ������. � ���� ����������: Django 2, DRF, Celery, PostgreSQL, Docker. � ���� ������������ ���������� � �������������� Django 2 (DRF � Celery). � \",\r\n    \"city\": 1,\r\n    \"language\": 1,\r\n    \"timestamp\": \"2020-11-10\"\r\n  }\r\n},\r\n{\r\n  \"model\": \"scraping.vacancy\",\r\n  \"pk\": 15,\r\n  \"fields\": {\r\n    \"url\": \"https://rabota.by/vacancy/40247758?query=Python\",\r\n    \"title\": \"Python developer\",\r\n    \"company\": \" Andersen\",\r\n    \"description\": \"������ Python � ������ ���������� �� 3-� ���. ���� ������ � ����������� Django. ���������� � ������� ������������, ������ ���...\",\r\n    \"city\": 1,\r\n    \"language\": 1,\r\n    \"timestamp\": \"2020-11-10\"\r\n  }\r\n},\r\n{\r\n  \"model\": \"scraping.vacancy\",\r\n  \"pk\": 16,\r\n  \"fields\": {\r\n    \"url\": \"https://rabota.by/vacancy/40220446?query=Python\",\r\n    \"title\": \"Python Developer\",\r\n    \"company\": \" iTechArt Group\",\r\n    \"description\": \"������� � ������ ����� ���������� ������������ �����������. ��������� ������������������� ���� �� Python. ���������� code review. ������� �������� � ������������� �����������.�� ������ ����� ����� � ����� ���������������� �������� � � ����� ��������� ����������� ���������� � ������� ���������� �� Python.\",\r\n    \"city\": 1,\r\n    \"language\": 1,\r\n    \"timestamp\": \"2020-11-10\"\r\n  }\r\n},\r\n{\r\n  \"model\": \"scraping.vacancy\",\r\n  \"pk\": 17,\r\n  \"fields\": {\r\n    \"url\": \"https://rabota.by/vacancy/39814747?query=Python\",\r\n    \"title\": \"Python / JS Developer\",\r\n    \"company\": \"��� ����������\",\r\n    \"description\": \"400+ employees with offices in Minsk, Brest, New York, San Diego, Mumbai.3+ years of experience in Python development. Profound experience in working with popular Python frameworks (Django, AsyncIO). \",\r\n    \"city\": 1,\r\n    \"language\": 1,\r\n    \"timestamp\": \"2020-11-10\"\r\n  }\r\n},\r\n{\r\n  \"model\": \"scraping.vacancy\",\r\n  \"pk\": 18,\r\n  \"fields\": {\r\n    \"url\": \"https://rabota.by/vacancy/40174067?query=Python\",\r\n    \"title\": \"Python Developer\",\r\n    \"company\": \" Belitsoft\",\r\n    \"description\": \"Design and implement microservices in Python3.7+. Provide and receive constructive feedback from code reviews. Help us improve...A software professional with 3+ years of hands-on proven experience. A strong Python developer with proficient understanding of...\",\r\n    \"city\": 1,\r\n    \"language\": 1,\r\n    \"timestamp\": \"2020-11-10\"\r\n  }\r\n},\r\n{\r\n  \"model\": \"scraping.vacancy\",\r\n  \"pk\": 19,\r\n  \"fields\": {\r\n    \"url\": \"https://hh.ru/vacancy/39960029?query=Python\",\r\n    \"title\": \"Full-stack Engineer, Senior (Python)\",\r\n    \"company\": \" Sphere Consulting\",\r\n    \"description\": \"Design, develop, test, deploy, maintain and improve software with a strong focus on customer-facing features. Be the technical owner...Experience with Python (5+). Experience with JavaScript. Experience with React. Experience with algorithms, data structures, complexity analysis and software...\",\r\n    \"city\": 1,\r\n    \"language\": 1,\r\n    \"timestamp\": \"2020-11-10\"\r\n  }\r\n},\r\n{\r\n  \"model\": \"scraping.vacancy\",\r\n  \"pk\": 20,\r\n  \"fields\": {\r\n    \"url\": \"https://rabota.by/vacancy/40159710?query=Python\",\r\n    \"title\": \"Python developer/Python Data Engineer\",\r\n    \"company\": \"��� ����������\",\r\n    \"description\": \"����� ������������� � ������������ ETL �������� (Pandas, Apache airflow, Scrapy, Postgres).����� 2+ ��� ����� (Python). ����� ���� � PHP. ����� ������� ������ SQL. ���������� (Advanced+). ���������� ���� ������ �...\",\r\n    \"city\": 1,\r\n    \"language\": 1,\r\n    \"timestamp\": \"2020-11-10\"\r\n  }\r\n},\r\n{\r\n  \"model\": \"scraping.vacancy\",\r\n  \"pk\": 21,\r\n  \"fields\": {\r\n    \"url\": \"https://rabota.by/vacancy/40072908?query=Python\",\r\n    \"title\": \"Python Developer\",\r\n    \"company\": \"��� ��������� / Kernelics\",\r\n    \"description\": \"���� ������������ ���������� �� Python �� 2 ���. ������ Django, Django REST Framework. ���� ������ � �����-���� ����������� �����...\",\r\n    \"city\": 1,\r\n    \"language\": 1,\r\n    \"timestamp\": \"2020-11-10\"\r\n  }\r\n},\r\n{\r\n  \"model\": \"scraping.vacancy\",\r\n  \"pk\": 22,\r\n  \"fields\": {\r\n    \"url\": \"https://rabota.by/vacancy/40048468?query=Python\",\r\n    \"title\": \"Junior Python Developer (Trainee/Students Lab)\",\r\n    \"company\": \" iTechArt Group\",\r\n    \"description\": \"...�� Javascript � Python � �������������� ��������� Bootstrap � Flask. ������ � ����������� web ������������ ����� Python. �������� world-class...���� ���������� web �������� � �������������� ����� Python � ��� ������ PostgreSQL, MySQL ��� MongoDB, ��� � �������������� ����� Javascript...\",\r\n    \"city\": 1,\r\n    \"language\": 1,\r\n    \"timestamp\": \"2020-11-10\"\r\n  }\r\n},\r\n{\r\n  \"model\": \"scraping.vacancy\",\r\n  \"pk\": 23,\r\n  \"fields\": {\r\n    \"url\": \"https://rabota.by/vacancy/40040707?query=Python\",\r\n    \"title\": \"Python developer\",\r\n    \"company\": \" Innowise Group / ������� ��������� � �������\",\r\n    \"description\": \"���������� web-���������� � �������������� Python. ������� � �������� � ����������� ���������� ����������. ������� � �������������� � ������ ����� ������...������ � ���� ���������� �� ����� Python (3.x). ������� ������ Django, Django rest framework, docker, docker-compose. \",\r\n    \"city\": 1,\r\n    \"language\": 1,\r\n    \"timestamp\": \"2020-11-10\"\r\n  }\r\n},\r\n{\r\n  \"model\": \"scraping.vacancy\",\r\n  \"pk\": 24,\r\n  \"fields\": {\r\n    \"url\": \"https://rabota.by/vacancy/40012746?query=Python\",\r\n    \"title\": \"Backend� python/django Developer\",\r\n    \"company\": \"��� �������\",\r\n    \"description\": \"������������ �����, ������ ����. ������ � ������� ������������� �������.������, ������� �� ����� ������ � ���: ����� ���������� Backend �� python/django 3 ����. ������ mysql (����������� ������ �...\",\r\n    \"city\": 1,\r\n    \"language\": 1,\r\n    \"timestamp\": \"2020-11-10\"\r\n  }\r\n},\r\n{\r\n  \"model\": \"scraping.vacancy\",\r\n  \"pk\": 25,\r\n  \"fields\": {\r\n    \"url\": \"https://rabota.by/vacancy/38955238?query=Python\",\r\n    \"title\": \"Senior Python Developer\",\r\n    \"company\": \" RocketData\",\r\n    \"description\": \"Rocketdata.io � �������� �� ����� ���������, �������� ����� ������� ���������� ��������, ��������������� ��������� ��� ���������� ����������� � ������� � ������ �...3+ ��� ����� ���������� �� Python. ��������� ������ � ���� ���������� ��������� ��������� ��������������. ���� ������ ��� � ���������...\",\r\n    \"city\": 1,\r\n    \"language\": 1,\r\n    \"timestamp\": \"2020-11-10\"\r\n  }\r\n},\r\n{\r\n  \"model\": \"scraping.vacancy\",\r\n  \"pk\": 26,\r\n  \"fields\": {\r\n    \"url\": \"https://rabota.by/vacancy/39892371?query=Python\",\r\n    \"title\": \"Python Developer\",\r\n    \"company\": \" ������\",\r\n    \"description\": \"���������� � ��������� ������� API. ������� � ���������� ����������� ��. ������������ �������� �������� ������. ��������� � �������������� �������� ��������� �������. �������� ������ Python. ��������� �������� ������ �������� SQL, � ��������� Postgresql. ������ ������� �������� ������ (������, ����� � �.�.). \",\r\n    \"city\": 1,\r\n    \"language\": 1,\r\n    \"timestamp\": \"2020-11-10\"\r\n  }\r\n},\r\n{\r\n  \"model\": \"scraping.vacancy\",\r\n  \"pk\": 27,\r\n  \"fields\": {\r\n    \"url\": \"https://rabota.by/vacancy/39449149?query=Python\",\r\n    \"title\": \"Python Developer\",\r\n    \"company\": \" APPSULOVE\",\r\n    \"description\": \"���� ������ Python ������������� �� 2-� ���. ���� ������ � Postgres, Apache Kafka, Redis. ���� ������ � Python ������������...\",\r\n    \"city\": 1,\r\n    \"language\": 1,\r\n    \"timestamp\": \"2020-11-10\"\r\n  }\r\n},\r\n{\r\n  \"model\": \"scraping.vacancy\",\r\n  \"pk\": 28,\r\n  \"fields\": {\r\n    \"url\": \"https://rabota.by/vacancy/38850307?query=Python\",\r\n    \"title\": \"Python Developer\",\r\n    \"company\": \"�� ���� �������\",\r\n    \"description\": \"Development of applications with low latency, high availability and performance (low-latency, high-availability, performance). Integration of elements developed by...Experience with Python from 3 years (we use Python 3.7). Experience using the Django Rest Framework. Desire to work...\",\r\n    \"city\": 1,\r\n    \"language\": 1,\r\n    \"timestamp\": \"2020-11-10\"\r\n  }\r\n},\r\n{\r\n  \"model\": \"scraping.vacancy\",\r\n  \"pk\": 29,\r\n  \"fields\": {\r\n    \"url\": \"https://rabota.by/vacancy/39938552?query=Python\",\r\n    \"title\": \"Python Developer (Data Sciense)\",\r\n    \"company\": \"��� IHS Global\",\r\n    \"description\": \"Performing data science tasks in the AI team. Participating in data engineering in projects with Deep Learning, Natural Language Processing...Strong programming skills � Python. Practical experience in building of ML/DL models with TensorFlow, Keras and/or PyTorch, etc. \",\r\n    \"city\": 1,\r\n    \"language\": 1,\r\n    \"timestamp\": \"2020-11-10\"\r\n  }\r\n},\r\n{\r\n  \"model\": \"scraping.vacancy\",\r\n  \"pk\": 30,\r\n  \"fields\": {\r\n    \"url\": \"https://rabota.by/vacancy/39833209?query=Python\",\r\n    \"title\": \"Python Engineer\",\r\n    \"company\": \" SaM Solutions ����������\",\r\n    \"description\": \"Support for data science development tasks in Machine Translation, including e.g. A) Optimization and transfer of containerized ML MVP...Fluent knowledge of Python. Knowledge of common standard ML Python libraries: e.g. Tensorflow and PyTorch. Experienced in optimization of...\",\r\n    \"city\": 1,\r\n    \"language\": 1,\r\n    \"timestamp\": \"2020-11-10\"\r\n  }\r\n},\r\n{\r\n  \"model\": \"scraping.vacancy\",\r\n  \"pk\": 31,\r\n  \"fields\": {\r\n    \"url\": \"https://rabota.by/vacancy/38148332?query=Python\",\r\n    \"title\": \"Python developer\",\r\n    \"company\": \" Oxagile\",\r\n    \"description\": \"Productize the data science work. Collaborate with the Data Scientists, Solution Architects and Business Analysts to ensure alignment between the...AI/ML/DL knowledge. Ability to read and understand C/C++ code.\",\r\n    \"city\": 1,\r\n    \"language\": 1,\r\n    \"timestamp\": \"2020-11-10\"\r\n  }\r\n},\r\n{\r\n  \"model\": \"scraping.vacancy\",\r\n  \"pk\": 32,\r\n  \"fields\": {\r\n    \"url\": \"https://rabota.by/vacancy/39801488?query=Python\",\r\n    \"title\": \"����������� Python\",\r\n    \"company\": \"��� ���� ����������\",\r\n    \"description\": \"��������� � ��������� �������� �������� (���������� ���������� ����, Python). ��������� � ��������� ���������������� ��������\\\\�������� (Bash, Python). ������� � ������������......� Python, Django. ������ �������� � Git. Linux �� ������ ������������ ������������. ���� ���������� �� ����� �� ������ ����������������: python...\",\r\n    \"city\": 1,\r\n    \"language\": 1,\r\n    \"timestamp\": \"2020-11-10\"\r\n  }\r\n},\r\n{\r\n  \"model\": \"scraping.vacancy\",\r\n  \"pk\": 33,\r\n  \"fields\": {\r\n    \"url\": \"https://rabota.by/vacancy/39809439?query=Python\",\r\n    \"title\": \"Senior Python developer\",\r\n    \"company\": \" Innowise Group / ������� ��������� � �������\",\r\n    \"description\": \"����������� � �������������� ����������� ������, ������������ ����� ����������� �������. �������� � �������� Senior Python Dev �� �������. ������� � PreSale...Senior �������, �������� ����������� ����������� ��� ����������� ������ ����������� �������� �� �������. ���� ������ � Python ������������ (Django, Flask, Aiohttp...\",\r\n    \"city\": 1,\r\n    \"language\": 1,\r\n    \"timestamp\": \"2020-11-10\"\r\n  }\r\n},\r\n{\r\n  \"model\": \"scraping.vacancy\",\r\n  \"pk\": 34,\r\n  \"fields\": {\r\n    \"url\": \"https://rabota.by/vacancy/40273375?query=Python\",\r\n    \"title\": \"����������� �� (QA Engineer)\",\r\n    \"company\": \"�� ��������� ���� ���������\",\r\n    \"description\": \"�������������� � ���������������� ���������� ������������. ������������� ������������. ��������������� ������������. ����� ��������, �������� ���-��������. ��������� ����-������.��������������, ���������� ���������. ������ �������� ��������������. ������� �����: ���� ������ � ADO, Jira. ���� ������������ API. ������ Python.\",\r\n    \"city\": 1,\r\n    \"language\": 1,\r\n    \"timestamp\": \"2020-11-10\"\r\n  }\r\n},\r\n{\r\n  \"model\": \"scraping.vacancy\",\r\n  \"pk\": 35,\r\n  \"fields\": {\r\n    \"url\": \"https://rabota.by/vacancy/40224118?query=Python\",\r\n    \"title\": \"Python �����������\",\r\n    \"company\": \"��� ����� ���\",\r\n    \"description\": \"����������� ������������� � ������-����������, ����������� web. ����������� ���������� � ���������� �������� ���������. ����������� � ������ ����� ����������: ����������������, ������������...Python (Odoo Framework Backend/Django/Flask). PostgreSQL (���������� �� ������� ��������������� SQL). HTML/XML/CSS. GIT. JS/JQuery. Python. Django. \",\r\n    \"city\": 1,\r\n    \"language\": 1,\r\n    \"timestamp\": \"2020-11-10\"\r\n  }\r\n},\r\n{\r\n  \"model\": \"scraping.vacancy\",\r\n  \"pk\": 36,\r\n  \"fields\": {\r\n    \"url\": \"https://rabota.by/vacancy/40218499?query=Python\",\r\n    \"title\": \"Python senior developer\",\r\n    \"company\": \"��� ������������\",\r\n    \"description\": \"Develop new functionality and maintain existing company's services. - Integrate with external and internal services. - Reviews to junior team members. - ...solid knowledge of web development in Python. - Understanding of design patterns. - Experience with modern python frameworks. - Solid knowledge of MySQL...\",\r\n    \"city\": 1,\r\n    \"language\": 1,\r\n    \"timestamp\": \"2020-11-10\"\r\n  }\r\n},\r\n{\r\n  \"model\": \"scraping.vacancy\",\r\n  \"pk\": 37,\r\n  \"fields\": {\r\n    \"url\": \"https://rabota.by/vacancy/40260264?query=Python\",\r\n    \"title\": \"Senior C++/Python developer\",\r\n    \"company\": \" Logic Way\",\r\n    \"description\": \"Design, build, and maintain efficient, reusable, and reliable C++ and Python code. Implement performant and quality modules. Identify bottlenecks and...Strong proficiency in C++ and Python, with fair knowledge of the language specification. Thorough knowledge of the standard library, STL...\",\r\n    \"city\": 1,\r\n    \"language\": 1,\r\n    \"timestamp\": \"2020-11-10\"\r\n  }\r\n},\r\n{\r\n  \"model\": \"scraping.vacancy\",\r\n  \"pk\": 38,\r\n  \"fields\": {\r\n    \"url\": \"https://rabota.by/vacancy/40104084?query=Python\",\r\n    \"title\": \"������� ����������� Python\",\r\n    \"company\": \" ���������������\",\r\n    \"description\": \"������ � ������� ������������� ���������� ������������, �������� ����������������� � ���������������� ������. �������� ���������� ��������� � �������������� ����������� ����������. ���������������� ���. ���� � �����������. ������� 3 ���� ������������� Python: ������� ������ Python 3+, ������������ pep8, ������ asyncio. \",\r\n    \"city\": 1,\r\n    \"language\": 1,\r\n    \"timestamp\": \"2020-11-10\"\r\n  }\r\n},\r\n{\r\n  \"model\": \"scraping.vacancy\",\r\n  \"pk\": 39,\r\n  \"fields\": {\r\n    \"url\": \"https://rabota.by/vacancy/40012716?query=Python\",\r\n    \"title\": \"Python Developer\",\r\n    \"company\": \"��� �����������\",\r\n    \"description\": \"Stack of technologies used on the project: Competitive salary.Strong knowledge of Python programming language. Experience in working with Django or other Python-based frameworks. Understanding REST APIs. \",\r\n    \"city\": 1,\r\n    \"language\": 1,\r\n    \"timestamp\": \"2020-11-10\"\r\n  }\r\n},\r\n{\r\n  \"model\": \"scraping.vacancy\",\r\n  \"pk\": 40,\r\n  \"fields\": {\r\n    \"url\": \"https://rabota.by/vacancy/39815362?query=Python\",\r\n    \"title\": \"����������� Python\",\r\n    \"company\": \"��� ����������� 12\",\r\n    \"description\": \"���������� � ���������� ����� ���������� � ��������� ������������� ���.���� ���������� �� Python �� 3-� ���.\",\r\n    \"city\": 1,\r\n    \"language\": 1,\r\n    \"timestamp\": \"2020-11-10\"\r\n  }\r\n},\r\n{\r\n  \"model\": \"scraping.vacancy\",\r\n  \"pk\": 41,\r\n  \"fields\": {\r\n    \"url\": \"https://rabota.by/vacancy/39893428?query=Python\",\r\n    \"title\": \"Middle+ Python Developer\",\r\n    \"company\": \"��� ��� ���� �����\",\r\n    \"description\": \"Docker. Agile development. Possibility to attend conferences and external trainings. Corporate events.2+ years experience with Python. Experience with Django/Flask Framework . Solid understanding of Git. Knowledge of English at the...\",\r\n    \"city\": 1,\r\n    \"language\": 1,\r\n    \"timestamp\": \"2020-11-10\"\r\n  }\r\n},\r\n{\r\n  \"model\": \"scraping.vacancy\",\r\n  \"pk\": 42,\r\n  \"fields\": {\r\n    \"url\": \"https://belmeta.com/redir?id=8075443\",\r\n    \"title\": \"DevOps Engineer\",\r\n    \"company\": \"OpsWorks Co.\",\r\n    \"description\": \"\\r\\n    internal perimeter with OpenVPN; Experience with High Available and High Load systems; Python ... OpsWorks Co. is a Ukraine-based IT engineering company. We specifically focus on providing ...\\r\\n  \",\r\n    \"city\": 1,\r\n    \"language\": 1,\r\n    \"timestamp\": \"2020-11-10\"\r\n  }\r\n},\r\n{\r\n  \"model\": \"scraping.vacancy\",\r\n  \"pk\": 43,\r\n  \"fields\": {\r\n    \"url\": \"https://belmeta.com/redir?id=8153459\",\r\n    \"title\": \"������� ������ ������������ ������������� ����\",\r\n    \"company\": \"A1 (��������� ����������� \\\"�1\\\") �������\",\r\n    \"description\": 
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- src/mydata.json	(revision a0a4b90040c6144429660c61cb89eaad8dbc2feb)
++++ src/mydata.json	(date 1606759734730)
+@@ -1,924 +1,5 @@
+ [
+ {
+-  "model": "admin.logentry",
+-  "pk": 1,
+-  "fields": {
+-    "action_time": "2020-11-10T18:11:20.483Z",
+-    "user": 1,
+-    "content_type": 6,
+-    "object_id": "1",
+-    "object_repr": "�����",
+-    "action_flag": 2,
+-    "change_message": "[{\"changed\": {\"fields\": [\"Slug\"]}}]"
+-  }
+-},
+-{
+-  "model": "admin.logentry",
+-  "pk": 2,
+-  "fields": {
+-    "action_time": "2020-11-10T18:11:28.734Z",
+-    "user": 1,
+-    "content_type": 7,
+-    "object_id": "1",
+-    "object_repr": "Python",
+-    "action_flag": 2,
+-    "change_message": "[]"
+-  }
+-},
+-{
+-  "model": "admin.logentry",
+-  "pk": 3,
+-  "fields": {
+-    "action_time": "2020-11-11T11:07:12.655Z",
+-    "user": 1,
+-    "content_type": 11,
+-    "object_id": "1",
+-    "object_repr": "Url object (1)",
+-    "action_flag": 1,
+-    "change_message": "[{\"added\": {}}]"
+-  }
+-},
+-{
+-  "model": "admin.logentry",
+-  "pk": 4,
+-  "fields": {
+-    "action_time": "2020-11-11T14:43:33.000Z",
+-    "user": 1,
+-    "content_type": 9,
+-    "object_id": "1",
+-    "object_repr": "nehvya@mail.ru",
+-    "action_flag": 2,
+-    "change_message": "[{\"changed\": {\"fields\": [\"Language\", \"City\"]}}]"
+-  }
+-},
+-{
+-  "model": "admin.logentry",
+-  "pk": 5,
+-  "fields": {
+-    "action_time": "2020-11-17T12:51:52.321Z",
+-    "user": 2,
+-    "content_type": 9,
+-    "object_id": "2",
+-    "object_repr": "v@mail.ru",
+-    "action_flag": 2,
+-    "change_message": "[{\"changed\": {\"fields\": [\"Language\", \"City\"]}}]"
+-  }
+-},
+-{
+-  "model": "admin.logentry",
+-  "pk": 6,
+-  "fields": {
+-    "action_time": "2020-11-20T16:01:35.108Z",
+-    "user": 2,
+-    "content_type": 9,
+-    "object_id": "8",
+-    "object_repr": "aa@mail.ru",
+-    "action_flag": 3,
+-    "change_message": ""
+-  }
+-},
+-{
+-  "model": "admin.logentry",
+-  "pk": 7,
+-  "fields": {
+-    "action_time": "2020-11-20T16:01:35.214Z",
+-    "user": 2,
+-    "content_type": 9,
+-    "object_id": "16",
+-    "object_repr": "asd@mail.ru",
+-    "action_flag": 3,
+-    "change_message": ""
+-  }
+-},
+-{
+-  "model": "admin.logentry",
+-  "pk": 8,
+-  "fields": {
+-    "action_time": "2020-11-20T16:01:35.321Z",
+-    "user": 2,
+-    "content_type": 9,
+-    "object_id": "15",
+-    "object_repr": "asdas@mail.ru",
+-    "action_flag": 3,
+-    "change_message": ""
+-  }
+-},
+-{
+-  "model": "admin.logentry",
+-  "pk": 9,
+-  "fields": {
+-    "action_time": "2020-11-20T16:01:35.405Z",
+-    "user": 2,
+-    "content_type": 9,
+-    "object_id": "14",
+-    "object_repr": "asdss@mail.ru",
+-    "action_flag": 3,
+-    "change_message": ""
+-  }
+-},
+-{
+-  "model": "admin.logentry",
+-  "pk": 10,
+-  "fields": {
+-    "action_time": "2020-11-20T16:01:35.512Z",
+-    "user": 2,
+-    "content_type": 9,
+-    "object_id": "9",
+-    "object_repr": "axa@mail.ru",
+-    "action_flag": 3,
+-    "change_message": ""
+-  }
+-},
+-{
+-  "model": "admin.logentry",
+-  "pk": 11,
+-  "fields": {
+-    "action_time": "2020-11-20T16:01:35.609Z",
+-    "user": 2,
+-    "content_type": 9,
+-    "object_id": "22",
+-    "object_repr": "c@mail.ru",
+-    "action_flag": 3,
+-    "change_message": ""
+-  }
+-},
+-{
+-  "model": "admin.logentry",
+-  "pk": 12,
+-  "fields": {
+-    "action_time": "2020-11-20T16:01:35.788Z",
+-    "user": 2,
+-    "content_type": 9,
+-    "object_id": "10",
+-    "object_repr": "ff@mail.ru",
+-    "action_flag": 3,
+-    "change_message": ""
+-  }
+-},
+-{
+-  "model": "admin.logentry",
+-  "pk": 13,
+-  "fields": {
+-    "action_time": "2020-11-20T16:01:35.873Z",
+-    "user": 2,
+-    "content_type": 9,
+-    "object_id": "11",
+-    "object_repr": "p@mail.ru",
+-    "action_flag": 3,
+-    "change_message": ""
+-  }
+-},
+-{
+-  "model": "admin.logentry",
+-  "pk": 14,
+-  "fields": {
+-    "action_time": "2020-11-20T16:01:35.959Z",
+-    "user": 2,
+-    "content_type": 9,
+-    "object_id": "12",
+-    "object_repr": "plp@mail.ru",
+-    "action_flag": 3,
+-    "change_message": ""
+-  }
+-},
+-{
+-  "model": "admin.logentry",
+-  "pk": 15,
+-  "fields": {
+-    "action_time": "2020-11-20T16:01:36.044Z",
+-    "user": 2,
+-    "content_type": 9,
+-    "object_id": "3",
+-    "object_repr": "s@mail.ru",
+-    "action_flag": 3,
+-    "change_message": ""
+-  }
+-},
+-{
+-  "model": "admin.logentry",
+-  "pk": 16,
+-  "fields": {
+-    "action_time": "2020-11-20T16:01:36.131Z",
+-    "user": 2,
+-    "content_type": 9,
+-    "object_id": "4",
+-    "object_repr": "ss@mail.ru",
+-    "action_flag": 3,
+-    "change_message": ""
+-  }
+-},
+-{
+-  "model": "admin.logentry",
+-  "pk": 17,
+-  "fields": {
+-    "action_time": "2020-11-20T16:01:36.213Z",
+-    "user": 2,
+-    "content_type": 9,
+-    "object_id": "5",
+-    "object_repr": "ssd@mail.ru",
+-    "action_flag": 3,
+-    "change_message": ""
+-  }
+-},
+-{
+-  "model": "admin.logentry",
+-  "pk": 18,
+-  "fields": {
+-    "action_time": "2020-11-20T16:01:36.299Z",
+-    "user": 2,
+-    "content_type": 9,
+-    "object_id": "17",
+-    "object_repr": "va@mail.ru",
+-    "action_flag": 3,
+-    "change_message": ""
+-  }
+-},
+-{
+-  "model": "admin.logentry",
+-  "pk": 19,
+-  "fields": {
+-    "action_time": "2020-11-20T16:01:36.384Z",
+-    "user": 2,
+-    "content_type": 9,
+-    "object_id": "6",
+-    "object_repr": "vd@mail.ru",
+-    "action_flag": 3,
+-    "change_message": ""
+-  }
+-},
+-{
+-  "model": "admin.logentry",
+-  "pk": 20,
+-  "fields": {
+-    "action_time": "2020-11-20T16:01:36.470Z",
+-    "user": 2,
+-    "content_type": 9,
+-    "object_id": "7",
+-    "object_repr": "vdd@mail.ru",
+-    "action_flag": 3,
+-    "change_message": ""
+-  }
+-},
+-{
+-  "model": "admin.logentry",
+-  "pk": 21,
+-  "fields": {
+-    "action_time": "2020-11-20T16:01:36.564Z",
+-    "user": 2,
+-    "content_type": 9,
+-    "object_id": "18",
+-    "object_repr": "vsa@mail.ru",
+-    "action_flag": 3,
+-    "change_message": ""
+-  }
+-},
+-{
+-  "model": "admin.logentry",
+-  "pk": 22,
+-  "fields": {
+-    "action_time": "2020-11-20T16:01:36.672Z",
+-    "user": 2,
+-    "content_type": 9,
+-    "object_id": "19",
+-    "object_repr": "vssa@mail.ru",
+-    "action_flag": 3,
+-    "change_message": ""
+-  }
+-},
+-{
+-  "model": "admin.logentry",
+-  "pk": 23,
+-  "fields": {
+-    "action_time": "2020-11-20T16:01:36.757Z",
+-    "user": 2,
+-    "content_type": 9,
+-    "object_id": "20",
+-    "object_repr": "vssaa@mail.ru",
+-    "action_flag": 3,
+-    "change_message": ""
+-  }
+-},
+-{
+-  "model": "admin.logentry",
+-  "pk": 24,
+-  "fields": {
+-    "action_time": "2020-11-20T16:17:05.407Z",
+-    "user": 2,
+-    "content_type": 9,
+-    "object_id": "2",
+-    "object_repr": "v@mail.ru",
+-    "action_flag": 2,
+-    "change_message": "[{\"changed\": {\"fields\": [\"Language\", \"City\"]}}]"
+-  }
+-},
+-{
+-  "model": "admin.logentry",
+-  "pk": 25,
+-  "fields": {
+-    "action_time": "2020-11-20T16:44:53.375Z",
+-    "user": 2,
+-    "content_type": 9,
+-    "object_id": "1",
+-    "object_repr": "vladislavnehvedovich@gmail.com",
+-    "action_flag": 2,
+-    "change_message": "[{\"changed\": {\"fields\": [\"Email address\"]}}]"
+-  }
+-},
+-{
+-  "model": "admin.logentry",
+-  "pk": 26,
+-  "fields": {
+-    "action_time": "2020-11-20T17:09:10.091Z",
+-    "user": 2,
+-    "content_type": 9,
+-    "object_id": "2",
+-    "object_repr": "v@mail.ru",
+-    "action_flag": 2,
+-    "change_message": "[{\"changed\": {\"fields\": [\"Send email\"]}}]"
+-  }
+-},
+-{
+-  "model": "admin.logentry",
+-  "pk": 27,
+-  "fields": {
+-    "action_time": "2020-11-20T20:01:10.457Z",
+-    "user": 2,
+-    "content_type": 9,
+-    "object_id": "1",
+-    "object_repr": "vladislavnehvedovich@gmail.com",
+-    "action_flag": 2,
+-    "change_message": "[{\"changed\": {\"fields\": [\"Is admin\"]}}]"
+-  }
+-},
+-{
+-  "model": "admin.logentry",
+-  "pk": 28,
+-  "fields": {
+-    "action_time": "2020-11-27T12:16:37.703Z",
+-    "user": 2,
+-    "content_type": 10,
+-    "object_id": "1",
+-    "object_repr": "2020-11-27",
+-    "action_flag": 1,
+-    "change_message": "[{\"added\": {}}]"
+-  }
+-},
+-{
+-  "model": "admin.logentry",
+-  "pk": 29,
+-  "fields": {
+-    "action_time": "2020-11-27T12:23:47.042Z",
+-    "user": 2,
+-    "content_type": 10,
+-    "object_id": "1",
+-    "object_repr": "2020-11-27",
+-    "action_flag": 2,
+-    "change_message": "[{\"changed\": {\"fields\": [\"Data\"]}}]"
+-  }
+-},
+-{
+-  "model": "admin.logentry",
+-  "pk": 30,
+-  "fields": {
+-    "action_time": "2020-11-27T12:24:13.009Z",
+-    "user": 2,
+-    "content_type": 10,
+-    "object_id": "1",
+-    "object_repr": "2020-11-27",
+-    "action_flag": 2,
+-    "change_message": "[{\"changed\": {\"fields\": [\"Data\"]}}]"
+-  }
+-},
+-{
+-  "model": "admin.logentry",
+-  "pk": 31,
+-  "fields": {
+-    "action_time": "2020-11-27T14:01:25.618Z",
+-    "user": 2,
+-    "content_type": 10,
+-    "object_id": "1",
+-    "object_repr": "2020-11-27",
+-    "action_flag": 2,
+-    "change_message": "[{\"changed\": {\"fields\": [\"Data\"]}}]"
+-  }
+-},
+-{
+-  "model": "auth.permission",
+-  "pk": 1,
+-  "fields": {
+-    "name": "Can add log entry",
+-    "content_type": 1,
+-    "codename": "add_logentry"
+-  }
+-},
+-{
+-  "model": "auth.permission",
+-  "pk": 2,
+-  "fields": {
+-    "name": "Can change log entry",
+-    "content_type": 1,
+-    "codename": "change_logentry"
+-  }
+-},
+-{
+-  "model": "auth.permission",
+-  "pk": 3,
+-  "fields": {
+-    "name": "Can delete log entry",
+-    "content_type": 1,
+-    "codename": "delete_logentry"
+-  }
+-},
+-{
+-  "model": "auth.permission",
+-  "pk": 4,
+-  "fields": {
+-    "name": "Can view log entry",
+-    "content_type": 1,
+-    "codename": "view_logentry"
+-  }
+-},
+-{
+-  "model": "auth.permission",
+-  "pk": 5,
+-  "fields": {
+-    "name": "Can add permission",
+-    "content_type": 2,
+-    "codename": "add_permission"
+-  }
+-},
+-{
+-  "model": "auth.permission",
+-  "pk": 6,
+-  "fields": {
+-    "name": "Can change permission",
+-    "content_type": 2,
+-    "codename": "change_permission"
+-  }
+-},
+-{
+-  "model": "auth.permission",
+-  "pk": 7,
+-  "fields": {
+-    "name": "Can delete permission",
+-    "content_type": 2,
+-    "codename": "delete_permission"
+-  }
+-},
+-{
+-  "model": "auth.permission",
+-  "pk": 8,
+-  "fields": {
+-    "name": "Can view permission",
+-    "content_type": 2,
+-    "codename": "view_permission"
+-  }
+-},
+-{
+-  "model": "auth.permission",
+-  "pk": 9,
+-  "fields": {
+-    "name": "Can add group",
+-    "content_type": 3,
+-    "codename": "add_group"
+-  }
+-},
+-{
+-  "model": "auth.permission",
+-  "pk": 10,
+-  "fields": {
+-    "name": "Can change group",
+-    "content_type": 3,
+-    "codename": "change_group"
+-  }
+-},
+-{
+-  "model": "auth.permission",
+-  "pk": 11,
+-  "fields": {
+-    "name": "Can delete group",
+-    "content_type": 3,
+-    "codename": "delete_group"
+-  }
+-},
+-{
+-  "model": "auth.permission",
+-  "pk": 12,
+-  "fields": {
+-    "name": "Can view group",
+-    "content_type": 3,
+-    "codename": "view_group"
+-  }
+-},
+-{
+-  "model": "auth.permission",
+-  "pk": 13,
+-  "fields": {
+-    "name": "Can add content type",
+-    "content_type": 4,
+-    "codename": "add_contenttype"
+-  }
+-},
+-{
+-  "model": "auth.permission",
+-  "pk": 14,
+-  "fields": {
+-    "name": "Can change content type",
+-    "content_type": 4,
+-    "codename": "change_contenttype"
+-  }
+-},
+-{
+-  "model": "auth.permission",
+-  "pk": 15,
+-  "fields": {
+-    "name": "Can delete content type",
+-    "content_type": 4,
+-    "codename": "delete_contenttype"
+-  }
+-},
+-{
+-  "model": "auth.permission",
+-  "pk": 16,
+-  "fields": {
+-    "name": "Can view content type",
+-    "content_type": 4,
+-    "codename": "view_contenttype"
+-  }
+-},
+-{
+-  "model": "auth.permission",
+-  "pk": 17,
+-  "fields": {
+-    "name": "Can add session",
+-    "content_type": 5,
+-    "codename": "add_session"
+-  }
+-},
+-{
+-  "model": "auth.permission",
+-  "pk": 18,
+-  "fields": {
+-    "name": "Can change session",
+-    "content_type": 5,
+-    "codename": "change_session"
+-  }
+-},
+-{
+-  "model": "auth.permission",
+-  "pk": 19,
+-  "fields": {
+-    "name": "Can delete session",
+-    "content_type": 5,
+-    "codename": "delete_session"
+-  }
+-},
+-{
+-  "model": "auth.permission",
+-  "pk": 20,
+-  "fields": {
+-    "name": "Can view session",
+-    "content_type": 5,
+-    "codename": "view_session"
+-  }
+-},
+-{
+-  "model": "auth.permission",
+-  "pk": 21,
+-  "fields": {
+-    "name": "Can add �����",
+-    "content_type": 6,
+-    "codename": "add_city"
+-  }
+-},
+-{
+-  "model": "auth.permission",
+-  "pk": 22,
+-  "fields": {
+-    "name": "Can change �����",
+-    "content_type": 6,
+-    "codename": "change_city"
+-  }
+-},
+-{
+-  "model": "auth.permission",
+-  "pk": 23,
+-  "fields": {
+-    "name": "Can delete �����",
+-    "content_type": 6,
+-    "codename": "delete_city"
+-  }
+-},
+-{
+-  "model": "auth.permission",
+-  "pk": 24,
+-  "fields": {
+-    "name": "Can view �����",
+-    "content_type": 6,
+-    "codename": "view_city"
+-  }
+-},
+-{
+-  "model": "auth.permission",
+-  "pk": 25,
+-  "fields": {
+-    "name": "Can add ���� ����������������",
+-    "content_type": 7,
+-    "codename": "add_language"
+-  }
+-},
+-{
+-  "model": "auth.permission",
+-  "pk": 26,
+-  "fields": {
+-    "name": "Can change ���� ����������������",
+-    "content_type": 7,
+-    "codename": "change_language"
+-  }
+-},
+-{
+-  "model": "auth.permission",
+-  "pk": 27,
+-  "fields": {
+-    "name": "Can delete ���� ����������������",
+-    "content_type": 7,
+-    "codename": "delete_language"
+-  }
+-},
+-{
+-  "model": "auth.permission",
+-  "pk": 28,
+-  "fields": {
+-    "name": "Can view ���� ����������������",
+-    "content_type": 7,
+-    "codename": "view_language"
+-  }
+-},
+-{
+-  "model": "auth.permission",
+-  "pk": 29,
+-  "fields": {
+-    "name": "Can add ��������",
+-    "content_type": 8,
+-    "codename": "add_vacancy"
+-  }
+-},
+-{
+-  "model": "auth.permission",
+-  "pk": 30,
+-  "fields": {
+-    "name": "Can change ��������",
+-    "content_type": 8,
+-    "codename": "change_vacancy"
+-  }
+-},
+-{
+-  "model": "auth.permission",
+-  "pk": 31,
+-  "fields": {
+-    "name": "Can delete ��������",
+-    "content_type": 8,
+-    "codename": "delete_vacancy"
+-  }
+-},
+-{
+-  "model": "auth.permission",
+-  "pk": 32,
+-  "fields": {
+-    "name": "Can view ��������",
+-    "content_type": 8,
+-    "codename": "view_vacancy"
+-  }
+-},
+-{
+-  "model": "auth.permission",
+-  "pk": 33,
+-  "fields": {
+-    "name": "Can add my user",
+-    "content_type": 9,
+-    "codename": "add_myuser"
+-  }
+-},
+-{
+-  "model": "auth.permission",
+-  "pk": 34,
+-  "fields": {
+-    "name": "Can change my user",
+-    "content_type": 9,
+-    "codename": "change_myuser"
+-  }
+-},
+-{
+-  "model": "auth.permission",
+-  "pk": 35,
+-  "fields": {
+-    "name": "Can delete my user",
+-    "content_type": 9,
+-    "codename": "delete_myuser"
+-  }
+-},
+-{
+-  "model": "auth.permission",
+-  "pk": 36,
+-  "fields": {
+-    "name": "Can view my user",
+-    "content_type": 9,
+-    "codename": "view_myuser"
+-  }
+-},
+-{
+-  "model": "auth.permission",
+-  "pk": 37,
+-  "fields": {
+-    "name": "Can add error",
+-    "content_type": 10,
+-    "codename": "add_error"
+-  }
+-},
+-{
+-  "model": "auth.permission",
+-  "pk": 38,
+-  "fields": {
+-    "name": "Can change error",
+-    "content_type": 10,
+-    "codename": "change_error"
+-  }
+-},
+-{
+-  "model": "auth.permission",
+-  "pk": 39,
+-  "fields": {
+-    "name": "Can delete error",
+-    "content_type": 10,
+-    "codename": "delete_error"
+-  }
+-},
+-{
+-  "model": "auth.permission",
+-  "pk": 40,
+-  "fields": {
+-    "name": "Can view error",
+-    "content_type": 10,
+-    "codename": "view_error"
+-  }
+-},
+-{
+-  "model": "auth.permission",
+-  "pk": 41,
+-  "fields": {
+-    "name": "Can add url",
+-    "content_type": 11,
+-    "codename": "add_url"
+-  }
+-},
+-{
+-  "model": "auth.permission",
+-  "pk": 42,
+-  "fields": {
+-    "name": "Can change url",
+-    "content_type": 11,
+-    "codename": "change_url"
+-  }
+-},
+-{
+-  "model": "auth.permission",
+-  "pk": 43,
+-  "fields": {
+-    "name": "Can delete url",
+-    "content_type": 11,
+-    "codename": "delete_url"
+-  }
+-},
+-{
+-  "model": "auth.permission",
+-  "pk": 44,
+-  "fields": {
+-    "name": "Can view url",
+-    "content_type": 11,
+-    "codename": "view_url"
+-  }
+-},
+-{
+-  "model": "contenttypes.contenttype",
+-  "pk": 1,
+-  "fields": {
+-    "app_label": "admin",
+-    "model": "logentry"
+-  }
+-},
+-{
+-  "model": "contenttypes.contenttype",
+-  "pk": 2,
+-  "fields": {
+-    "app_label": "auth",
+-    "model": "permission"
+-  }
+-},
+-{
+-  "model": "contenttypes.contenttype",
+-  "pk": 3,
+-  "fields": {
+-    "app_label": "auth",
+-    "model": "group"
+-  }
+-},
+-{
+-  "model": "contenttypes.contenttype",
+-  "pk": 4,
+-  "fields": {
+-    "app_label": "contenttypes",
+-    "model": "contenttype"
+-  }
+-},
+-{
+-  "model": "contenttypes.contenttype",
+-  "pk": 5,
+-  "fields": {
+-    "app_label": "sessions",
+-    "model": "session"
+-  }
+-},
+-{
+-  "model": "contenttypes.contenttype",
+-  "pk": 6,
+-  "fields": {
+-    "app_label": "scraping",
+-    "model": "city"
+-  }
+-},
+-{
+-  "model": "contenttypes.contenttype",
+-  "pk": 7,
+-  "fields": {
+-    "app_label": "scraping",
+-    "model": "language"
+-  }
+-},
+-{
+-  "model": "contenttypes.contenttype",
+-  "pk": 8,
+-  "fields": {
+-    "app_label": "scraping",
+-    "model": "vacancy"
+-  }
+-},
+-{
+-  "model": "contenttypes.contenttype",
+-  "pk": 9,
+-  "fields": {
+-    "app_label": "accounts",
+-    "model": "myuser"
+-  }
+-},
+-{
+-  "model": "contenttypes.contenttype",
+-  "pk": 10,
+-  "fields": {
+-    "app_label": "scraping",
+-    "model": "error"
+-  }
+-},
+-{
+-  "model": "contenttypes.contenttype",
+-  "pk": 11,
+-  "fields": {
+-    "app_label": "scraping",
+-    "model": "url"
+-  }
+-},
+-{
+-  "model": "sessions.session",
+-  "pk": "4gqqsybesp2vh41jbiuv976muaihyjnl",
+-  "fields": {
+-    "session_data": ".eJxVjDEOAiEQRe9CbYgOsjCW9p6BDDMgqwaSZbcy3t2QbKHtf-_9twq0rSVsPS1hFnVRoA6_WyR-pjqAPKjem-ZW12WOeih6p13fmqTXdXf_Dgr1MmrMxjF6cIh4njJnZ4EQTp7RJiAQtOQtHNEkSw6cn6JnC0CZjYhTny_NKzdz:1kjlIV:UM-F3SpqYYaHoHub2kFJNDOEjEeU6STKyfaSXwkx254",
+-    "expire_date": "2020-12-14T15:41:03.968Z"
+-  }
+-},
+-{
+-  "model": "sessions.session",
+-  "pk": "ao8zs9ehz9yc1pewifzy67k7lzd6lupx",
+-  "fields": {
+-    "session_data": ".eJxVjEsOwjAMBe-SNYpSV04IS_acoXJimxRQIvWzqrg7VOoCtm9m3mYGWpcyrLNMw8jmYqA3p98xUX5K3Qk_qN6bza0u05jsrtiDzvbWWF7Xw_07KDSXb-2DQ-hZNLmoZyCInJXYCSIGFnHKjtW7SB1GBIEcuoAxag5BwSfz_gAb0Dh6:1kieUU:kKbqcNTuqLMVEbmGhpBgTzHp7fLGaiTEjGQtRpw2c34",
+-    "expire_date": "2020-12-11T14:12:50.785Z"
+-  }
+-},
+-{
+-  "model": "sessions.session",
+-  "pk": "oxqiwz63tahngirfd6ucv2nb3qq66j3a",
+-  "fields": {
+-    "session_data": ".eJxVjEEOwiAQRe_C2hA6Tgu4dO8ZyDBMpWogKe3KeHdD0oVu_3vvv1Wgfcthb7KGJamLAnX63SLxU0oH6UHlXjXXsq1L1F3RB236VpO8rof7d5Cp5V4zWjeCGGGayAFbcAyjOUcgj2Z2fkCwHgQm4gjoIyMKOTMj8-BYfb7bRzfK:1kfRZB:lb9s7EeSdRDkG7lO5s2hvPfCgEAVIRmdr8_IQPfTOPM",
+-    "expire_date": "2020-12-02T17:48:25.045Z"
+-  }
+-},
+-{
+-  "model": "sessions.session",
+-  "pk": "zsbuue82kpcc8s8yr9j36h44w0x3m2cp",
+-  "fields": {
+-    "session_data": ".eJxVjMsOwiAQRf-FtSHDG1y69xvIMIBUDU1KuzL-uzbpQrf3nHNfLOK2triNssQpszMT7PS7JaRH6TvId-y3mdPc12VKfFf4QQe_zrk8L4f7d9BwtG-tDJG21VcZgHJyggBK9goDgarGAshq0WUdwIEmg0b6Sl54CUoHLdj7A92uNwg:1kb7Ld:-4DoG9QYzSomUw7kVwAVXbBtJKBc3KxX2f06zeTBzUY",
+-    "expire_date": "2020-11-20T19:24:33.932Z"
+-  }
+-},
+-{
+   "model": "scraping.city",
+   "pk": 1,
+   "fields": {

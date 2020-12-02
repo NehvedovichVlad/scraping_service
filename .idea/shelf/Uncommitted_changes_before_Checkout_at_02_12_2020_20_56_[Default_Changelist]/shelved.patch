@@ -1,0 +1,20 @@
+Index: src/scraping_service/wsgi.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>\"\"\"\r\nWSGI config for scraping_service project.\r\n\r\nIt exposes the WSGI callable as a module-level variable named ``application``.\r\n\r\nFor more information on this file, see\r\nhttps://docs.djangoproject.com/en/3.1/howto/deployment/wsgi/\r\n\"\"\"\r\n\r\nimport os\r\n\r\nfrom django.core.wsgi import get_wsgi_application\r\n\r\n# os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'scraping_service.settings')\r\nos.environ[\"DJANGO_SETTINGS_MODULE\"] = \"scraping_service.settings\"\r\n\r\n\r\napplication = get_wsgi_application()\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- src/scraping_service/wsgi.py	(revision ee603c72f7dabda350952a49758e1ae942d22fc2)
++++ src/scraping_service/wsgi.py	(date 1606928528529)
+@@ -11,8 +11,8 @@
+ 
+ from django.core.wsgi import get_wsgi_application
+ 
+-# os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'scraping_service.settings')
+-os.environ["DJANGO_SETTINGS_MODULE"] = "scraping_service.settings"
++os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'scraping_service.settings')
++# os.environ["DJANGO_SETTINGS_MODULE"] = "scraping_service.settings"
+ 
+ 
+ application = get_wsgi_application()

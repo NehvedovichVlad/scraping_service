@@ -1,0 +1,725 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="7dddb0a8-9fec-45eb-ac04-5b373729dee4" name="Default Changelist" comment="settings parsers">
+      <change beforePath="$PROJECT_DIR$/src/scraping_service/wsgi.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/scraping_service/wsgi.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="feature" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1jZevKTkadKHEs78rltE7Ilodye" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="TERMINAL_CUSTOM_COMMANDS_GOT_IT" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/scraping_service/settings" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PythonContentEntriesConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\projects\scraping_service\src" />
+      <recent name="D:\projects\scraping_service" />
+      <recent name="D:\projects\scraping_service\src\scraping_service\settings" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\projects\scraping_service\src\scraping_service\settings" />
+      <recent name="D:\projects\scraping_service\src\static\fonts" />
+      <recent name="D:\projects\scraping_service\src\static" />
+      <recent name="D:\projects\scraping_service\src\accounts\templates\accounts" />
+      <recent name="D:\projects\scraping_service\src\scraping\templates\scraping" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.send_emails">
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <module name="scraping_service" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Users\vladi\.virtualenvs\scraping_service-kgg4FKqT\Scripts\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/manage.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="local_settings" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="scraping_service" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Users\vladi\.virtualenvs\scraping_service-kgg4FKqT\Scripts\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="D:\projects\scraping_service\src\scraping_service\settings\local_settings.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="parsers" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="scraping_service" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Users\vladi\.virtualenvs\scraping_service-kgg4FKqT\Scripts\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/scraping/parsers.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="run" type="PythonConfigurationType" factoryName="Python">
+      <module name="scraping_service" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Users\vladi\.virtualenvs\scraping_service-kgg4FKqT\Scripts\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/manage.py" />
+      <option name="PARAMETERS" value="runserver" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="run_parsers" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="scraping_service" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Users\vladi\.virtualenvs\scraping_service-kgg4FKqT\Scripts\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/run_parsers.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="send_emails" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="scraping_service" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Users\vladi\.virtualenvs\scraping_service-kgg4FKqT\Scripts\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/send_emails.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="work" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="scraping_service" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Users\vladi\.virtualenvs\scraping_service-kgg4FKqT\Scripts\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/work.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.work" />
+        <item itemvalue="Python.send_emails" />
+        <item itemvalue="Python.run_parsers" />
+        <item itemvalue="Python.parsers" />
+        <item itemvalue="Python.local_settings" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7dddb0a8-9fec-45eb-ac04-5b373729dee4" name="Default Changelist" comment="" />
+      <created>1604016274152</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1604016274152</updated>
+    </task>
+    <task id="LOCAL-00038" summary="send messages on emails">
+      <created>1605879595681</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1605879595681</updated>
+    </task>
+    <task id="LOCAL-00039" summary="create vacancies for the user">
+      <created>1605885324984</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1605885324984</updated>
+    </task>
+    <task id="LOCAL-00040" summary="send gmail">
+      <created>1605892988035</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1605892988035</updated>
+    </task>
+    <task id="LOCAL-00041" summary="password send_email">
+      <created>1606075050746</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1606075050746</updated>
+    </task>
+    <task id="LOCAL-00042" summary="Search for keys that don't have urls">
+      <created>1606328462572</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1606328462572</updated>
+    </task>
+    <task id="LOCAL-00043" summary="fixing for new functionality">
+      <created>1606338075418</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1606338075452</updated>
+    </task>
+    <task id="LOCAL-00044" summary="every day check errors parsers">
+      <created>1606480074981</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1606480074981</updated>
+    </task>
+    <task id="LOCAL-00045" summary="contact form for users">
+      <created>1606483690492</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1606483690492</updated>
+    </task>
+    <task id="LOCAL-00046" summary="finish contact_form">
+      <created>1606489671453</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1606489671453</updated>
+    </task>
+    <task id="LOCAL-00047" summary="favicon, update template contact form, static">
+      <created>1606511371094</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1606511371109</updated>
+    </task>
+    <task id="LOCAL-00048" summary="change logo style">
+      <created>1606680821361</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1606680821361</updated>
+    </task>
+    <task id="LOCAL-00049" summary="base settings production">
+      <created>1606751037301</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1606751037301</updated>
+    </task>
+    <task id="LOCAL-00050" summary="add postgresql production">
+      <created>1606754424684</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1606754424684</updated>
+    </task>
+    <task id="LOCAL-00051" summary="heroku">
+      <created>1606755648286</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1606755648286</updated>
+    </task>
+    <task id="LOCAL-00052" summary="heroku ALLOWED_HOSTS">
+      <created>1606755818447</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1606755818447</updated>
+    </task>
+    <task id="LOCAL-00053" summary="requirements.txt for heroku">
+      <created>1606756532286</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1606756532286</updated>
+    </task>
+    <task id="LOCAL-00054" summary="change requirements.txt for heroku">
+      <created>1606757188347</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1606757188347</updated>
+    </task>
+    <task id="LOCAL-00055" summary="fixes">
+      <created>1606757432446</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1606757432446</updated>
+    </task>
+    <task id="LOCAL-00056" summary="check problem">
+      <created>1606758043574</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1606758043574</updated>
+    </task>
+    <task id="LOCAL-00057" summary="add fixtures">
+      <created>1606759215910</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1606759215910</updated>
+    </task>
+    <task id="LOCAL-00058" summary="add migration">
+      <created>1606761023329</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1606761023329</updated>
+    </task>
+    <task id="LOCAL-00059" summary="check">
+      <created>1606761766697</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1606761766729</updated>
+    </task>
+    <task id="LOCAL-00060" summary="check">
+      <created>1606762695198</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1606762695214</updated>
+    </task>
+    <task id="LOCAL-00061" summary="check">
+      <created>1606763276718</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1606763276718</updated>
+    </task>
+    <task id="LOCAL-00062" summary="check">
+      <created>1606763892290</created>
+      <option name="number" value="00062" />
+      <option name="presentableId" value="LOCAL-00062" />
+      <option name="project" value="LOCAL" />
+      <updated>1606763892290</updated>
+    </task>
+    <task id="LOCAL-00063" summary="check">
+      <created>1606764567620</created>
+      <option name="number" value="00063" />
+      <option name="presentableId" value="LOCAL-00063" />
+      <option name="project" value="LOCAL" />
+      <updated>1606764567620</updated>
+    </task>
+    <task id="LOCAL-00064" summary="mistake">
+      <created>1606765191472</created>
+      <option name="number" value="00064" />
+      <option name="presentableId" value="LOCAL-00064" />
+      <option name="project" value="LOCAL" />
+      <updated>1606765191472</updated>
+    </task>
+    <task id="LOCAL-00065" summary="check migrations">
+      <created>1606766460340</created>
+      <option name="number" value="00065" />
+      <option name="presentableId" value="LOCAL-00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1606766460340</updated>
+    </task>
+    <task id="LOCAL-00066" summary="refresh">
+      <created>1606767105687</created>
+      <option name="number" value="00066" />
+      <option name="presentableId" value="LOCAL-00066" />
+      <option name="project" value="LOCAL" />
+      <updated>1606767105687</updated>
+    </task>
+    <task id="LOCAL-00067" summary="procfile">
+      <created>1606855604251</created>
+      <option name="number" value="00067" />
+      <option name="presentableId" value="LOCAL-00067" />
+      <option name="project" value="LOCAL" />
+      <updated>1606855604253</updated>
+    </task>
+    <task id="LOCAL-00068" summary="change way for procfile">
+      <created>1606904325901</created>
+      <option name="number" value="00068" />
+      <option name="presentableId" value="LOCAL-00068" />
+      <option name="project" value="LOCAL" />
+      <updated>1606904325903</updated>
+    </task>
+    <task id="LOCAL-00069" summary=".">
+      <created>1606905389272</created>
+      <option name="number" value="00069" />
+      <option name="presentableId" value="LOCAL-00069" />
+      <option name="project" value="LOCAL" />
+      <updated>1606905389272</updated>
+    </task>
+    <task id="LOCAL-00070" summary=".">
+      <created>1606906858987</created>
+      <option name="number" value="00070" />
+      <option name="presentableId" value="LOCAL-00070" />
+      <option name="project" value="LOCAL" />
+      <updated>1606906859010</updated>
+    </task>
+    <task id="LOCAL-00071" summary="CHANGES">
+      <created>1606907729616</created>
+      <option name="number" value="00071" />
+      <option name="presentableId" value="LOCAL-00071" />
+      <option name="project" value="LOCAL" />
+      <updated>1606907729616</updated>
+    </task>
+    <task id="LOCAL-00072" summary=".">
+      <created>1606908989348</created>
+      <option name="number" value="00072" />
+      <option name="presentableId" value="LOCAL-00072" />
+      <option name="project" value="LOCAL" />
+      <updated>1606908989348</updated>
+    </task>
+    <task id="LOCAL-00073" summary=".">
+      <created>1606909845828</created>
+      <option name="number" value="00073" />
+      <option name="presentableId" value="LOCAL-00073" />
+      <option name="project" value="LOCAL" />
+      <updated>1606909845828</updated>
+    </task>
+    <task id="LOCAL-00074" summary=".">
+      <created>1606910257789</created>
+      <option name="number" value="00074" />
+      <option name="presentableId" value="LOCAL-00074" />
+      <option name="project" value="LOCAL" />
+      <updated>1606910257790</updated>
+    </task>
+    <task id="LOCAL-00075" summary=".">
+      <created>1606910534112</created>
+      <option name="number" value="00075" />
+      <option name="presentableId" value="LOCAL-00075" />
+      <option name="project" value="LOCAL" />
+      <updated>1606910534112</updated>
+    </task>
+    <task id="LOCAL-00076" summary=".">
+      <created>1606911806567</created>
+      <option name="number" value="00076" />
+      <option name="presentableId" value="LOCAL-00076" />
+      <option name="project" value="LOCAL" />
+      <updated>1606911806582</updated>
+    </task>
+    <task id="LOCAL-00077" summary=".">
+      <created>1606913740578</created>
+      <option name="number" value="00077" />
+      <option name="presentableId" value="LOCAL-00077" />
+      <option name="project" value="LOCAL" />
+      <updated>1606913740587</updated>
+    </task>
+    <task id="LOCAL-00078" summary=".">
+      <created>1606913898067</created>
+      <option name="number" value="00078" />
+      <option name="presentableId" value="LOCAL-00078" />
+      <option name="project" value="LOCAL" />
+      <updated>1606913898068</updated>
+    </task>
+    <task id="LOCAL-00079" summary=".">
+      <created>1606915390028</created>
+      <option name="number" value="00079" />
+      <option name="presentableId" value="LOCAL-00079" />
+      <option name="project" value="LOCAL" />
+      <updated>1606915390071</updated>
+    </task>
+    <task id="LOCAL-00080" summary=".">
+      <created>1606915545067</created>
+      <option name="number" value="00080" />
+      <option name="presentableId" value="LOCAL-00080" />
+      <option name="project" value="LOCAL" />
+      <updated>1606915545067</updated>
+    </task>
+    <task id="LOCAL-00081" summary=".">
+      <created>1606916875247</created>
+      <option name="number" value="00081" />
+      <option name="presentableId" value="LOCAL-00081" />
+      <option name="project" value="LOCAL" />
+      <updated>1606916875247</updated>
+    </task>
+    <task id="LOCAL-00082" summary=".">
+      <created>1606918533599</created>
+      <option name="number" value="00082" />
+      <option name="presentableId" value="LOCAL-00082" />
+      <option name="project" value="LOCAL" />
+      <updated>1606918533634</updated>
+    </task>
+    <task id="LOCAL-00083" summary=".">
+      <created>1606919658706</created>
+      <option name="number" value="00083" />
+      <option name="presentableId" value="LOCAL-00083" />
+      <option name="project" value="LOCAL" />
+      <updated>1606919658706</updated>
+    </task>
+    <task id="LOCAL-00084" summary=".">
+      <created>1606920969950</created>
+      <option name="number" value="00084" />
+      <option name="presentableId" value="LOCAL-00084" />
+      <option name="project" value="LOCAL" />
+      <updated>1606920969950</updated>
+    </task>
+    <task id="LOCAL-00085" summary=".">
+      <created>1606921687338</created>
+      <option name="number" value="00085" />
+      <option name="presentableId" value="LOCAL-00085" />
+      <option name="project" value="LOCAL" />
+      <updated>1606921687338</updated>
+    </task>
+    <task id="LOCAL-00086" summary=".">
+      <created>1606922520861</created>
+      <option name="number" value="00086" />
+      <option name="presentableId" value="LOCAL-00086" />
+      <option name="project" value="LOCAL" />
+      <updated>1606922520861</updated>
+    </task>
+    <option name="localTasksCounter" value="87" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Search for keys that don't have urls" />
+    <MESSAGE value="fixing for new functionality" />
+    <MESSAGE value="every day check errors parsers" />
+    <MESSAGE value="contact form for users" />
+    <MESSAGE value="finish contact_form" />
+    <MESSAGE value="favicon, update template contact form, static" />
+    <MESSAGE value="change logo style" />
+    <MESSAGE value="base settings production" />
+    <MESSAGE value="add postgresql production" />
+    <MESSAGE value="heroku" />
+    <MESSAGE value="heroku ALLOWED_HOSTS" />
+    <MESSAGE value="requirements.txt for heroku" />
+    <MESSAGE value="change requirements.txt for heroku" />
+    <MESSAGE value="fixes" />
+    <MESSAGE value="check problem" />
+    <MESSAGE value="add fixtures" />
+    <MESSAGE value="add migration" />
+    <MESSAGE value="check" />
+    <MESSAGE value="mistake" />
+    <MESSAGE value="check migrations" />
+    <MESSAGE value="refresh" />
+    <MESSAGE value="procfile" />
+    <MESSAGE value="change way for procfile" />
+    <MESSAGE value="CHANGES" />
+    <MESSAGE value="." />
+    <option name="LAST_COMMIT_MESSAGE" value="." />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="460" y="182" key="#com.intellij.codeInsight.template.impl.EditVariableDialog" timestamp="1604657937570">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="460" y="182" key="#com.intellij.codeInsight.template.impl.EditVariableDialog/0.0.1366.728@0.0.1366.728" timestamp="1604657937570" />
+    <state x="137" y="19" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1604666076386">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="137" y="19" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1604666076386" />
+    <state x="442" y="162" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1606910094210">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="442" y="162" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.728@0.0.1366.728" timestamp="1606910094210" />
+    <state x="413" y="111" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1604422583321">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="413" y="111" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728@0.0.1366.728" timestamp="1604422583321" />
+    <state x="462" y="119" key="FileChooserDialogImpl" timestamp="1606163585072">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="462" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1606163585072" />
+    <state width="1323" height="218" key="GridCell.Tab.0.bottom" timestamp="1606338152650">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="218" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1606338152650" />
+    <state width="1323" height="218" key="GridCell.Tab.0.center" timestamp="1606338152649">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="218" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1606338152649" />
+    <state width="1323" height="218" key="GridCell.Tab.0.left" timestamp="1606338152649">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="218" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1606338152649" />
+    <state width="1323" height="218" key="GridCell.Tab.0.right" timestamp="1606338152649">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="218" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1606338152649" />
+    <state width="1323" height="218" key="GridCell.Tab.1.bottom" timestamp="1606338152651">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="218" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1606338152651" />
+    <state width="1323" height="218" key="GridCell.Tab.1.center" timestamp="1606338152650">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="218" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1606338152650" />
+    <state width="1323" height="218" key="GridCell.Tab.1.left" timestamp="1606338152650">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="218" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1606338152650" />
+    <state width="1323" height="218" key="GridCell.Tab.1.right" timestamp="1606338152650">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="218" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1606338152650" />
+    <state x="520" y="103" key="RollbackChangesDialog" timestamp="1606762912530">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="520" y="103" key="RollbackChangesDialog/0.0.1366.728@0.0.1366.728" timestamp="1606762912530" />
+    <state x="17" y="0" key="SettingsEditor" timestamp="1606763202428">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="17" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1606763202428" />
+    <state x="275" y="78" key="Vcs.Push.Dialog.v2" timestamp="1606922523317">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="275" y="78" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1606922523317" />
+    <state x="92" y="92" width="1182" height="544" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1604690370851">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="92" y="92" width="1182" height="544" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1366.728@0.0.1366.728" timestamp="1604690370851" />
+    <state x="448" y="97" key="git4idea.branch.GitSmartOperationDialog" timestamp="1606903813120">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="448" y="97" key="git4idea.branch.GitSmartOperationDialog/0.0.1366.728@0.0.1366.728" timestamp="1606903813120" />
+    <state x="479" y="143" key="git4idea.merge.GitMergeDialog" timestamp="1604479409462">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="479" y="143" key="git4idea.merge.GitMergeDialog/0.0.1366.728@0.0.1366.728" timestamp="1604479409462" />
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1604771132357">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1604771132357" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/work.py</url>
+          <line>65</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
