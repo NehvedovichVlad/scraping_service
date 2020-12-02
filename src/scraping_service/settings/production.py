@@ -28,6 +28,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'scraping',
     'accounts',
+    'scraping_service',
 ]
 
 MIDDLEWARE = [
