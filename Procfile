@@ -1,1 +1,1 @@
-web: gunicorn --chdir src scraping_service.wsgi --log-file -
+web: python src/manage.py runserver 0.0.0.0:$PORT --noreload
