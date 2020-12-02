@@ -14,7 +14,6 @@ gunicorn==20.0.4
 idna==2.10
 psycopg2==2.8.6
 psycopg2-binary==2.8.6
-psycopg2==2.6.2
 pytz==2020.4
 requests==2.25.0
 screen==1.0.1
