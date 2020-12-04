@@ -1,29 +1,40 @@
-from random import randint
-
 import requests
 import codecs
 
 from bs4 import BeautifulSoup as BS
+from random import randint
 
-headers = {
-    'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.183 Safari/537.36',
-    'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
-}
+__all__ = ('rabota_by', 'belmeta', 'dev_by')
+
+headers = [
+    {
+        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.183 Safari/537.36',
+        'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'},
+    {
+        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.169 Safari/537.36',
+        'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'},
+    {
+        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36',
+        'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'},
+    {
+        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36',
+        'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'}
+]
 
 
-def rabota_by(url, city=None, language=None):
+def rabota_by(url, city, language):
     jobs = []
     errors = []
     domain = 'https://rabota.by'
     if url:
-        resp = requests.get(url, headers=headers[randint(0, 2)])
+        resp = requests.get(url, headers=headers[randint(0, 3)])
         if resp.status_code == 200:
             soup = BS(resp.content, 'html.parser')
             main_div = soup.find('div', attrs={"class": "vacancy-serp"})
             if main_div:
                 div_lst = main_div.find_all('div', attrs={"data-qa": "vacancy-serp__vacancy"})
                 for div in div_lst:
-                    title = div.find('div', attrs={"class": "vacancy-serp-item__row_header"})
+                    title = div.find('span', attrs={"class": "resume-search-item__name"})
                     href = title.a['href']
                     company = div.find('a', attrs={"data-qa": "vacancy-serp__vacancy-employer"})
                     adress = div.find('span', attrs={"data-qa": "vacancy-serp__vacancy-address"})
@@ -35,15 +46,15 @@ def rabota_by(url, city=None, language=None):
         else:
             errors.append({'url': url, 'title': "Page don't response"})
 
-    return jobs, errors
+        return jobs, errors
 
 
-def belmeta(url, city=None, language=None):
+def belmeta(url, city, language):
     jobs = []
     errors = []
     domain = 'https://belmeta.com'
     if url:
-        resp = requests.get(url, headers=headers[randint(0, 2)])
+        resp = requests.get(url, headers=headers[randint(0, 3)])
         if resp.status_code == 200:
             soup = BS(resp.content, 'html.parser')
             table = soup.find('div', attrs={"class": "jobs"})
@@ -62,15 +73,15 @@ def belmeta(url, city=None, language=None):
                 errors.append({'url': url, 'title': "Table didn't exists"})
         else:
             errors.append({'url': url, 'title': "Page don't response"})
-    return jobs, errors
+        return jobs, errors
 
 
-def dev_by(url, city=None, language=None):
+def dev_by(url, city, language):
     jobs = []
     errors = []
     domain = 'https://jobs.dev.by'
     if url:
-        resp = requests.get(url, headers=headers[randint(0, 2)])
+        resp = requests.get(url, headers=headers[randint(0, 3)])
         if resp.status_code == 200:
             soup = BS(resp.content, 'html.parser')
             list_body = soup.find('div', attrs={"class": "vacancies-list__scroll-block"})
@@ -84,21 +95,16 @@ def dev_by(url, city=None, language=None):
                     content = soup.find('div', attrs={"class": "vacancies-list-item__technology-tags"})
 
                     jobs.append(
-                        {'title': title.text, 'url': domain + href, 'description': content.get_text(','), 'company': company,
-                         'city_id': city, 'language_id': language})
+                        {'title': title.text, 'url': domain + href, 'description': content.get_text(','),
+                         'company': company})
                 else:
                     jobs.append(
-                        {'title': title.text, 'url': domain + href, 'description': "no description", 'company': company})
+                        {'title': title.text, 'url': domain + href, 'description': "no description", 'company': company,
+                         'city_id': city, 'language_id': language})
             else:
                 errors.append({'url': url, 'title': "List_body didn't exists"})
         else:
             errors.append({'url': url, 'title': "Page don't response"})
-    return jobs, errors
+        return jobs, errors
 
 
-# if __name__ == '__main__':
-#     url = 'https://jobs.dev.by/?&filter[search]=python'
-#     jobs, errors = dev_by(url)
-#     h = codecs.open('work.txt', 'w', 'utf-8')
-#     h.write(str(jobs))
-#     h.close()

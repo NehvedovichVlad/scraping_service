@@ -96,7 +96,7 @@ def dev_by(url, city, language):
 
                     jobs.append(
                         {'title': title.text, 'url': domain + href, 'description': content.get_text(','),
-                         'company': company})
+                         'company': company, 'city_id': city, 'language_id': language})
                 else:
                     jobs.append(
                         {'title': title.text, 'url': domain + href, 'description': "no description", 'company': company,
