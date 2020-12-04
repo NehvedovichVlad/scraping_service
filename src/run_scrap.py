@@ -12,15 +12,15 @@ django.setup()
 
 from django.db import DatabaseError
 from scraping.parsers import *
-from scraping.models import Vacancy, City, Language, Error, Url
+from scraping.models import Vacancy, Error, Url
 
 User = get_user_model()
 
 """parsers consists from function and key"""
 parsers = (
-    (rabota_by, 'rabota_by'),
+    (dev_by, 'dev_by'),
     (belmeta, 'belmeta'),
-    (dev_by, 'dev_by')
+    (rabota_by, 'rabota_by')
 )
 
 jobs, errors = [], []

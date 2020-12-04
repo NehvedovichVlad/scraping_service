@@ -1,3 +1,5 @@
+from random import randint
+
 import requests
 import codecs
 
@@ -9,86 +11,88 @@ headers = {
 }
 
 
-def rabota_by(url):
+def rabota_by(url, city=None, language=None):
     jobs = []
     errors = []
     domain = 'https://rabota.by'
-    url = 'https://rabota.by/search/vacancy?area=1002&fromSearchLine=true&st=searchVacancy&text=Python&from=suggest_post'
-    resp = requests.get(url, headers=headers)
-    if resp.status_code == 200:
-        soup = BS(resp.content, 'html.parser')
-        main_div = soup.find('div', attrs={"class": "vacancy-serp"})
-        if main_div:
-            div_lst = main_div.find_all('div', attrs={"data-qa": "vacancy-serp__vacancy"})
-            for div in div_lst:
-                title = div.find('div', attrs={"class": "vacancy-serp-item__row_header"})
-                href = title.a['href']
-                company = div.find('a', attrs={"data-qa": "vacancy-serp__vacancy-employer"})
-                adress = div.find('span', attrs={"data-qa": "vacancy-serp__vacancy-address"})
-                content = div.find('div', attrs={"class": "g-user-content"})
-                jobs.append({'title': title.text, 'url': href, 'description': content.text,
-                             'company': company.text})
+    if url:
+        resp = requests.get(url, headers=headers[randint(0, 2)])
+        if resp.status_code == 200:
+            soup = BS(resp.content, 'html.parser')
+            main_div = soup.find('div', attrs={"class": "vacancy-serp"})
+            if main_div:
+                div_lst = main_div.find_all('div', attrs={"data-qa": "vacancy-serp__vacancy"})
+                for div in div_lst:
+                    title = div.find('div', attrs={"class": "vacancy-serp-item__row_header"})
+                    href = title.a['href']
+                    company = div.find('a', attrs={"data-qa": "vacancy-serp__vacancy-employer"})
+                    adress = div.find('span', attrs={"data-qa": "vacancy-serp__vacancy-address"})
+                    content = div.find('div', attrs={"class": "g-user-content"})
+                    jobs.append({'title': title.text, 'url': href, 'description': content.text,
+                                 'company': company.text, 'city_id': city, 'language_id': language})
+            else:
+                errors.append({'url': url, 'title': "Div didn't exists"})
         else:
-            errors.append({'url': url, 'title': "Div didn't exists"})
-    else:
-        errors.append({'url': url, 'title': "Page don't response"})
+            errors.append({'url': url, 'title': "Page don't response"})
 
     return jobs, errors
 
 
-def belmeta(url):
+def belmeta(url, city=None, language=None):
     jobs = []
     errors = []
     domain = 'https://belmeta.com'
-    url = 'https://belmeta.com/%D0%B2%D0%B0%D0%BA%D0%B0%D0%BD%D1%81%D0%B8%D0%B8/Python/%D0%9C%D0%B8%D0%BD%D1%81%D0%BA'
-    resp = requests.get(url, headers=headers)
-    if resp.status_code == 200:
-        soup = BS(resp.content, 'html.parser')
-        table = soup.find('div', attrs={"class": "jobs"})
-        if table:
-            div_lst = table.find_all('article', attrs={"class": "job no-logo"})
-            for div in div_lst:
-                title = div.find('h2', attrs={"class": "title"})
-                href = title.a['href']
-                company = div.find('div', attrs={"class": "job-data company"})
-                adress = div.find('div', attrs={"class": "job-data region"})
-                content = div.find('div', attrs={"class": "desc"})
-                jobs.append(
-                    {'title': title.text, 'url': domain + href, 'description': content.text, 'company': company.text})
+    if url:
+        resp = requests.get(url, headers=headers[randint(0, 2)])
+        if resp.status_code == 200:
+            soup = BS(resp.content, 'html.parser')
+            table = soup.find('div', attrs={"class": "jobs"})
+            if table:
+                div_lst = table.find_all('article', attrs={"class": "job no-logo"})
+                for div in div_lst:
+                    title = div.find('h2', attrs={"class": "title"})
+                    href = title.a['href']
+                    company = div.find('div', attrs={"class": "job-data company"})
+                    adress = div.find('div', attrs={"class": "job-data region"})
+                    content = div.find('div', attrs={"class": "desc"})
+                    jobs.append(
+                        {'title': title.text, 'url': domain + href, 'description': content.text, 'company': company.text,
+                         'city_id': city, 'language_id': language})
+            else:
+                errors.append({'url': url, 'title': "Table didn't exists"})
         else:
-            errors.append({'url': url, 'title': "Table didn't exists"})
-    else:
-        errors.append({'url': url, 'title': "Page don't response"})
+            errors.append({'url': url, 'title': "Page don't response"})
     return jobs, errors
 
 
-def dev_by(url):
+def dev_by(url, city=None, language=None):
     jobs = []
     errors = []
     domain = 'https://jobs.dev.by'
-    #url = 'https://jobs.dev.by/?&filter[search]=python'
-    resp = requests.get(url, headers=headers)
-    if resp.status_code == 200:
-        soup = BS(resp.content, 'html.parser')
-        list_body = soup.find('div', attrs={"class": "vacancies-list__scroll-block"})
-        if list_body:
-            div_lst = list_body.find_all('div', attrs={"class": "vacancies-list-item--marked"})
-            for div in div_lst:
-                title = div.find('div', attrs={"class": "vacancies-list-item__position"})
-                href = title.a['href']
-                company = div.a.text
-                adress = "no adress"
-                content = soup.find('div', attrs={"class": "vacancies-list-item__technology-tags"})
+    if url:
+        resp = requests.get(url, headers=headers[randint(0, 2)])
+        if resp.status_code == 200:
+            soup = BS(resp.content, 'html.parser')
+            list_body = soup.find('div', attrs={"class": "vacancies-list__scroll-block"})
+            if list_body:
+                div_lst = list_body.find_all('div', attrs={"class": "vacancies-list-item--marked"})
+                for div in div_lst:
+                    title = div.find('div', attrs={"class": "vacancies-list-item__position"})
+                    href = title.a['href']
+                    company = div.a.text
+                    adress = "no adress"
+                    content = soup.find('div', attrs={"class": "vacancies-list-item__technology-tags"})
 
-                jobs.append(
-                    {'title': title.text, 'url': domain + href, 'description': content.get_text(','), 'company': company})
+                    jobs.append(
+                        {'title': title.text, 'url': domain + href, 'description': content.get_text(','), 'company': company,
+                         'city_id': city, 'language_id': language})
+                else:
+                    jobs.append(
+                        {'title': title.text, 'url': domain + href, 'description': "no description", 'company': company})
             else:
-                jobs.append(
-                    {'title': title.text, 'url': domain + href, 'description': "no description", 'company': company})
+                errors.append({'url': url, 'title': "List_body didn't exists"})
         else:
-            errors.append({'url': url, 'title': "List_body didn't exists"})
-    else:
-        errors.append({'url': url, 'title': "Page don't response"})
+            errors.append({'url': url, 'title': "Page don't response"})
     return jobs, errors
 
 

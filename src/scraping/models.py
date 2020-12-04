@@ -5,7 +5,7 @@ from scraping.utils import from_cyrillic_to_eng
 
 
 def default_urls():
-    return {"rabota_by": "", "belmeta": "", "dev_by": ""}
+    return {"dev_by": "", "belmeta": "", "rabota_by": ""}
 
 
 class City(models.Model):
