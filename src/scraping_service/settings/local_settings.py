@@ -1,22 +1,19 @@
 import os
-import dj_database_url
+from pathlib import Path
 
-EMAIL_HOST_USER = os.environ.get("EMAIL_HOST_USER")
-EMAIL_HOST_PASSWORD = os.environ.get("EMAIL_HOST_PASSWORD")
-EMAIL_HOST = os.environ.get("EMAIL_HOST")
-EMAIL_PORT = os.environ.get("EMAIL_PORT")
-DB_NAME = os.environ.get('DB_NAME')
-DB_PASSWORD = os.environ.get('DB_PASSWORD')
-DB_HOST = os.environ.get('DB_HOST')
-DB_USER = os.environ.get('DB_USER')
-SECRET_KEY = os.environ.get("SECRET_KEY")
 
-# BASE_DIR = Path(__file__).resolve().parent.parent.parent
-BASE_DIR = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
-SECRET_KEY = SECRET_KEY
-DEBUG = False
+from dotenv import load_dotenv
+load_dotenv()
+EMAIL_HOST_USER = os.getenv("EMAIL_HOST_USER")
+EMAIL_HOST_PASSWORD = os.getenv("EMAIL_HOST_PASSWORD")
 
-ALLOWED_HOSTS = ["serv-scraps.herokuapp.com"]
+
+BASE_DIR = Path(__file__).resolve().parent.parent.parent
+SECRET_KEY = os.getenv("SECRET_KEY")
+
+DEBUG = True
+
+ALLOWED_HOSTS = []
 
 INSTALLED_APPS = [
     'django.contrib.admin',
@@ -31,7 +28,6 @@ INSTALLED_APPS = [
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
-    'whitenoise.middleware.WhiteNoiseMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
     'django.middleware.csrf.CsrfViewMiddleware',
@@ -62,17 +58,10 @@ WSGI_APPLICATION = 'scraping_service.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.postgresql',
-        'NAME': DB_NAME,
-        'USER': DB_USER,
-        'PASSWORD': DB_PASSWORD,
-        'HOST': DB_HOST,
-        'PORT': '5432',
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': BASE_DIR / 'db.sqlite3',
     }
 }
-
-db = dj_database_url.config()
-DATABASES['default'].update(db)
 
 AUTH_PASSWORD_VALIDATORS = [
     {
@@ -103,7 +92,7 @@ STATIC_URL = '/static/'
 
 AUTH_USER_MODEL = 'accounts.MyUser'
 EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
-EMAIL_HOST = EMAIL_HOST
+EMAIL_HOST = os.getenv("EMAIL_HOST")
 EMAIL_USE_TLS = True
 EMAIL_PORT = 587
 EMAIL_HOST_USER = EMAIL_HOST_USER
