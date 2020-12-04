@@ -17,7 +17,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__fil
 SECRET_KEY = SECRET_KEY
 DEBUG = False
 
-ALLOWED_HOSTS = ["scrap-service.herokuapp.com"]
+ALLOWED_HOSTS = ["serv-scraps.herokuapp.com"]
 
 INSTALLED_APPS = [
     'django.contrib.admin',
@@ -104,7 +104,7 @@ STATIC_URL = '/static/'
 
 AUTH_USER_MODEL = 'accounts.MyUser'
 EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
-EMAIL_HOST = os.getenv("EMAIL_HOST")
+EMAIL_HOST = EMAIL_HOST
 EMAIL_USE_TLS = True
 EMAIL_PORT = 587
 EMAIL_HOST_USER = EMAIL_HOST_USER
