@@ -53,8 +53,8 @@ settings = get_settings()
 """get url on id"""
 url_list = get_urls(settings)
 
-city = City.objects.filter(slug='minsk').first()
-language = Language.objects.filter(slug='python').first()
+# city = City.objects.filter(slug='minsk').first()
+# language = Language.objects.filter(slug='python').first()
 
 jobs, errors = [], []
 for data in url_list:
@@ -65,7 +65,7 @@ for data in url_list:
         errors += e
 
 for job in jobs:
-    v = Vacancy(**job, city=city, language=language)
+    v = Vacancy(**job)
     try:
         v.save()
     except DatabaseError:
