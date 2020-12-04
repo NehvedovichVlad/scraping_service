@@ -2,6 +2,7 @@ import codecs
 import os
 import sys
 from django.contrib.auth import get_user_model
+import datetime as dt
 
 proj = os.path.dirname(os.path.abspath('manage.py'))
 sys.path.append(proj)
@@ -59,7 +60,7 @@ url_list = get_urls(settings)
 
 for data in url_list:
     for func, key in parsers:
-        url = data['url_data'][key]
+        url = data['url_data'][str(key)]
         j, e = func(url, city=data['city'], language=data['language'])
         jobs += j
         errors += e
