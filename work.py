@@ -96,9 +96,9 @@ def dev_by(url, city=None, language=None):
     return jobs, errors
 
 
-if __name__ == '__main__':
-    url = 'https://jobs.dev.by/?&filter[search]=python'
-    jobs, errors = dev_by(url)
-    h = codecs.open('work.txt', 'w', 'utf-8')
-    h.write(str(jobs))
-    h.close()
+# if __name__ == '__main__':
+#     url = 'https://jobs.dev.by/?&filter[search]=python'
+#     jobs, errors = dev_by(url)
+#     h = codecs.open('work.txt', 'w', 'utf-8')
+#     h.write(str(jobs))
+#     h.close()
