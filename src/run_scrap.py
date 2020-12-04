@@ -56,7 +56,6 @@ url_list = get_urls(settings)
 # city = City.objects.filter(slug='minsk').first()
 # language = Language.objects.filter(slug='python').first()
 
-jobs, errors = [], []
 for data in url_list:
     for func, key in parsers:
         url = data['url_data'][key]
@@ -71,7 +70,13 @@ for job in jobs:
     except DatabaseError:
         pass
 if errors:
-    er = Error(data=errors).save()
+    qs = Error.objets.filter(timestamp=dt.date.today())
+    if qs.exsists():
+        err = qs.first()
+        err.data.update({'errors': errors})
+        err.save()
+    else:
+        er = Error(data=f'errors:{errors}').save()
 
 
 # h = codecs.open('work.txt', 'w', 'utf-8')
