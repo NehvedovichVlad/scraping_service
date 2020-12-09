@@ -55,12 +55,10 @@ settings = get_settings()
 """get url on id"""
 url_list = get_urls(settings)
 
-# city = City.objects.filter(slug='minsk').first()
-# language = Language.objects.filter(slug='python').first()
 
 for data in url_list:
     for func, key in parsers:
-        url = data['url_data'][str(key)]
+        url = data['url_data'][key]
         j, e = func(url, city=data['city'], language=data['language'])
         jobs += j
         errors += e
