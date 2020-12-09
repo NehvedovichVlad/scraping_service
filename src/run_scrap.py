@@ -58,6 +58,8 @@ url_list = get_urls(settings)
 
 for data in url_list:
     for func, key in parsers:
+        if key.isdigit():
+            key == str(key)
         url = data['url_data'][key]
         j, e = func(url, city=data['city'], language=data['language'])
         jobs += j
