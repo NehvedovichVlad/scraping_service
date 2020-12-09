@@ -22,7 +22,7 @@ User = get_user_model()
 parsers = (
     (dev_by, 'dev_by'),
     (belmeta, 'belmeta'),
-    (rabota_by, 'rabota_by')
+    (rabota_by, 'rabota_by'),
 )
 
 jobs, errors = [], []
@@ -58,7 +58,7 @@ url_list = get_urls(settings)
 
 for data in url_list:
     for func, key in parsers:
-        url = data[url_data].get(key, 0)
+        url = data['url_data'][key]
         j, e = func(url, city=data['city'], language=data['language'])
         jobs += j
         errors += e
