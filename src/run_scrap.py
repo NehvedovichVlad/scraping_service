@@ -58,7 +58,7 @@ url_list = get_urls(settings)
 
 for data in url_list:
     for func, key in parsers:
-        url = data['url_data'].get(key, 0)
+        url = data.get('url_data', 2).get(key, 0)
         j, e = func(url, city=data['city'], language=data['language'])
         jobs += j
         errors += e
